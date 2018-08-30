@@ -1,0 +1,34 @@
+[URI of the OWL(RDF/XML) output file]
+http://purl.obolibrary.org/obo/oae/RO_import
+
+[Source ontology]
+RO
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/BFO_0000062 # is preceded by
+http://purl.obolibrary.org/obo/BFO_0000063 # precedes
+http://purl.obolibrary.org/obo/BFO_0000066 # occurs in
+http://purl.obolibrary.org/obo/BFO_0000055 # realizes
+http://purl.obolibrary.org/obo/BFO_0000054 # realized in
+http://purl.obolibrary.org/obo/BFO_0000051 # has part
+http://purl.obolibrary.org/obo/BFO_0000050 # part of
+http://purl.obolibrary.org/obo/RO_0002222 # temporally related to
+http://purl.obolibrary.org/obo/RO_0002082 # simultaneous with
+http://purl.obolibrary.org/obo/RO_0002090 #immediately precedes
+http://purl.obolibrary.org/obo/RO_0002230 #ends with
+http://purl.obolibrary.org/obo/RO_0002087 #immediately preceded by
+http://purl.obolibrary.org/obo/RO_0002161 #never in taxon
+
+http://purl.obolibrary.org/obo/RO_0000086 # has quality 
+http://purl.obolibrary.org/obo/RO_0000087 #has role
+
+[Top level source term URIs and target direct superclass URIs]
+http://www.w3.org/2002/07/owl#topObjectProperty
+
+[Source term retrieval setting]
+includeAllIntermediates 
+
+[Source annotation URIs]
+includeAllAxiomsRecursively
+
+[Source annotation URIs to be excluded]

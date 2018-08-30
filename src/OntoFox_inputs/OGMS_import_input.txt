@@ -1,0 +1,33 @@
+[URI of the OWL(RDF/XML) output file]
+http://purl.obolibrary.org/obo/oae/OGMS_import.owl
+
+[Source ontology]
+OGMS
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/OGMS_0000061 #pathological bodily process
+http://purl.obolibrary.org/obo/OGMS_0000020 #symptom
+http://purl.obolibrary.org/obo/OGMS_0000031 #disease
+http://purl.obolibrary.org/obo/OGMS_0000014 #clinical finding
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/OGMS_0000060 #bodily process
+subClassOf http://purl.obolibrary.org/obo/BFO_0000015
+
+http://purl.obolibrary.org/obo/OGMS_0000031 #disease
+subClassOf http://purl.obolibrary.org/obo/BFO_0000016
+
+http://purl.obolibrary.org/obo/OGMS_0000014
+subClassOf http://purl.obolibrary.org/obo/IAO_0000027 #data item
+
+http://purl.obolibrary.org/obo/OGMS_0000020 #symptom
+subClassOf http://purl.obolibrary.org/obo/BFO_0000001
+
+[Source term retrieval setting]
+includeComputedIntermediates
+
+[Branch extractions from source term URIs and target direct superclass URIs]
+
+
+[Source annotation URIs]
+includeAllAnnotationProperties

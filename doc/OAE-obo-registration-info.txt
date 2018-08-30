@@ -1,0 +1,19 @@
+id	adverse_events
+title	Ontology of Adverse Events
+namespace	OAE
+uriprefix	http://purl.obolibrary.org/obo/OAE_
+foundry	No
+metadata_ontology	IAO
+status	Production and review
+download	http://svn.code.sf.net/p/oae/code/trunk/src/ontology/oae.owl
+source	
+home	OAE|http://www.oae-ontology.org
+documentation	
+contact	Yongqunh He	yongqunh	med.umich.edu
+format	owl
+description	The Ontology of Adverse Events (OAE) is a biomedical ontology in the domain of adverse events. OAE aims to standardize adverse event annotation, integrate various adverse event data, and support computer-assisted reasoning.  OAE is a community-based ontology. Its development follows the OBO Foundry principles. 
+relevant_organism	All possible organisms (e.g., human, cattle) with the use of biomedical interventions, such as vaccination and drug administration. 
+subtypes_of	bfo:entity
+patho_type	pathological
+domain	adverse events, health
+granularity	molecular,cellular,organismal,multi-organismal

@@ -1,0 +1,22 @@
+[URI of the OWL(RDF/XML) output file]
+http://purl.obolibrary.org/obo/oae/DOID_import.owl
+
+[Source ontology]
+DOID
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/DOID_870 #neuropathy
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/DOID_870 #neuropathy
+subClassOf http://purl.obolibrary.org/obo/OGMS_0000031 #disease
+
+
+[Source term retrieval setting]
+includeAllIntermediates
+
+[Branch extractions from source term URIs and target direct superclass URIs]
+
+
+[Source annotation URIs]
+includeAllAxioms

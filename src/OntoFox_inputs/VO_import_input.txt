@@ -1,0 +1,37 @@
+[URI of the OWL(RDF/XML) output file]
+http://purl.obolibrary.org/obo/oae/VO_import.owl
+
+[Source ontology]
+VO
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/VO_0000001 #vaccine
+http://purl.obolibrary.org/obo/VO_0000002 #vaccination
+http://purl.obolibrary.org/obo/VO_0000006 #Afluria
+http://purl.obolibrary.org/obo/VO_0000043 #FluLaval
+http://purl.obolibrary.org/obo/VO_0000044 #FluMist
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/VO_0000002 #vaccination
+subClassOf http://purl.obolibrary.org/obo/OAE_0000002 # put vaccination under medical intervention on purpose
+
+
+http://purl.obolibrary.org/obo/VO_0000006
+subClassOf http://purl.obolibrary.org/obo/VO_0000642 #influenza virus vaccine
+
+http://purl.obolibrary.org/obo/VO_0000642 #influenza virus vaccine
+subClassOf http://purl.obolibrary.org/obo/VO_0000001 #vaccine
+
+http://purl.obolibrary.org/obo/OBI_0000011 #planned process
+
+http://purl.obolibrary.org/obo/OBI_0000047 #processed material
+
+[Source term retrieval setting]
+includeComputedIntermediates
+
+[Branch extractions from source term URIs and target direct superclass URIs]
+
+
+[Source annotation URIs]
+http://www.w3.org/2000/01/rdf-schema#label
+http://purl.obolibrary.org/obo/IAO_0000115 

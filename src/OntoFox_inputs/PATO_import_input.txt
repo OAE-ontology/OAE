@@ -1,0 +1,26 @@
+[URI of the OWL(RDF/XML) output file]
+http://purl.obolibrary.org/obo/oae/PATO_import.owl
+
+[Source ontology]
+PATO
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/PATO_0001309 #duration quality of a process (or period)
+http://purl.obolibrary.org/obo/PATO_0000389 #acute
+http://purl.obolibrary.org/obo/PATO_0000011 #age (PATO)
+http://purl.obolibrary.org/obo/PATO_0000186 #behavioral quality
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/PATO_0001236 #process quality
+subClassOf http://purl.obolibrary.org/obo/BFO_0000019
+http://purl.obolibrary.org/obo/PATO_0001241 #physical object quality
+subClassOf http://purl.obolibrary.org/obo/BFO_0000019
+
+
+[Source term retrieval setting]
+includeAllIntermediates
+
+[Branch extractions from source term URIs and target direct superclass URIs]
+
+[Source annotation URIs]
+includeAllAxioms

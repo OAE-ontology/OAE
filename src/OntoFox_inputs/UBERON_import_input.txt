@@ -1,0 +1,185 @@
+[URI of the OWL(RDF/XML) output file]
+http://purl.obolibrary.org/obo/oae/UBERON_import.owl
+
+[Source ontology]
+UBERON
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/UBERON_0000079
+http://purl.obolibrary.org/obo/UBERON_0000474
+http://purl.obolibrary.org/obo/UBERON_0000479
+http://purl.obolibrary.org/obo/UBERON_0000948
+http://purl.obolibrary.org/obo/UBERON_0000955
+http://purl.obolibrary.org/obo/UBERON_0000990
+http://purl.obolibrary.org/obo/UBERON_0001004
+http://purl.obolibrary.org/obo/UBERON_0001007
+http://purl.obolibrary.org/obo/UBERON_0001016
+http://purl.obolibrary.org/obo/UBERON_0001033
+http://purl.obolibrary.org/obo/UBERON_0001072
+http://purl.obolibrary.org/obo/UBERON_0001088
+http://purl.obolibrary.org/obo/UBERON_0001184
+http://purl.obolibrary.org/obo/UBERON_0001255
+http://purl.obolibrary.org/obo/UBERON_0001458
+http://purl.obolibrary.org/obo/UBERON_0001473
+http://purl.obolibrary.org/obo/UBERON_0001511
+http://purl.obolibrary.org/obo/UBERON_0001690
+http://purl.obolibrary.org/obo/UBERON_0001705
+http://purl.obolibrary.org/obo/UBERON_0001981
+http://purl.obolibrary.org/obo/UBERON_0002097
+http://purl.obolibrary.org/obo/UBERON_0002204
+http://purl.obolibrary.org/obo/UBERON_0002294
+http://purl.obolibrary.org/obo/UBERON_0002384
+http://purl.obolibrary.org/obo/UBERON_0002385
+http://purl.obolibrary.org/obo/UBERON_0002390
+http://purl.obolibrary.org/obo/UBERON_0002405
+http://purl.obolibrary.org/obo/UBERON_0002418
+http://purl.obolibrary.org/obo/UBERON_0002419
+http://purl.obolibrary.org/obo/UBERON_0002451
+http://purl.obolibrary.org/obo/UBERON_0003544
+http://purl.obolibrary.org/obo/UBERON_0004535
+http://purl.obolibrary.org/obo/UBERON_0005409
+http://purl.obolibrary.org/obo/UBERON_0006554
+http://purl.obolibrary.org/obo/UBERON_0007798
+http://purl.obolibrary.org/obo/UBERON_0000970      #eye
+http://purl.obolibrary.org/obo/UBERON_0000054      #macula
+http://purl.obolibrary.org/obo/UBERON_0000057      #urethra
+http://purl.obolibrary.org/obo/UBERON_0000059      #large intestine
+http://purl.obolibrary.org/obo/UBERON_0000074      #renal glomerulus
+http://purl.obolibrary.org/obo/UBERON_0000160      #intestine
+http://purl.obolibrary.org/obo/UBERON_0000165      #mouth
+http://purl.obolibrary.org/obo/UBERON_0000178      #blood
+http://purl.obolibrary.org/obo/UBERON_0000305      #amnion
+http://purl.obolibrary.org/obo/UBERON_0000310      #breast
+http://purl.obolibrary.org/obo/UBERON_0000341      #throat
+http://purl.obolibrary.org/obo/UBERON_0000916      #abdomen
+http://purl.obolibrary.org/obo/UBERON_0000945      #stomach
+http://purl.obolibrary.org/obo/UBERON_0000947      #aorta
+http://purl.obolibrary.org/obo/UBERON_0000949      #endocrine system
+http://purl.obolibrary.org/obo/UBERON_0000966      #retina
+http://purl.obolibrary.org/obo/UBERON_0000995      #uterus
+http://purl.obolibrary.org/obo/UBERON_0000996      #vagina
+http://purl.obolibrary.org/obo/UBERON_0001017      #central nervous system
+http://purl.obolibrary.org/obo/UBERON_0001021      #nerve
+http://purl.obolibrary.org/obo/UBERON_0001043      #esophagus
+http://purl.obolibrary.org/obo/UBERON_0001044      #salivary gland
+http://purl.obolibrary.org/obo/UBERON_0001103      #diaphragm
+http://purl.obolibrary.org/obo/UBERON_0001132      #parathyroid gland
+http://purl.obolibrary.org/obo/UBERON_0001153      #caecum
+http://purl.obolibrary.org/obo/UBERON_0001155      #colon
+http://purl.obolibrary.org/obo/UBERON_0001245      #anus
+http://purl.obolibrary.org/obo/UBERON_0001264      #pancreas
+http://purl.obolibrary.org/obo/UBERON_0001322      #sciatic nerve
+http://purl.obolibrary.org/obo/UBERON_0001359      #cerebrospinal fluid
+http://purl.obolibrary.org/obo/UBERON_0001456      #face
+http://purl.obolibrary.org/obo/UBERON_0001474      #bone
+http://purl.obolibrary.org/obo/UBERON_0001557      #upper respiratory tract
+http://purl.obolibrary.org/obo/UBERON_0001637      #artery
+http://purl.obolibrary.org/obo/UBERON_0001638      #vein
+http://purl.obolibrary.org/obo/UBERON_0001711       #eyelid
+http://purl.obolibrary.org/obo/UBERON_0001723      #tongue
+http://purl.obolibrary.org/obo/UBERON_0001737      #larynx
+http://purl.obolibrary.org/obo/UBERON_0001831      #parotid gland
+http://purl.obolibrary.org/obo/UBERON_0001833      #lip
+http://purl.obolibrary.org/obo/UBERON_0001843      #lateral semicircular canal
+http://purl.obolibrary.org/obo/UBERON_0001871      #temporal lobe
+http://purl.obolibrary.org/obo/UBERON_0001982      #capillary
+http://purl.obolibrary.org/obo/UBERON_0002017      #portal vein
+http://purl.obolibrary.org/obo/UBERON_0002046      #thyroid gland
+http://purl.obolibrary.org/obo/UBERON_0002048      #lung
+http://purl.obolibrary.org/obo/UBERON_0002079      #left atrium
+http://purl.obolibrary.org/obo/UBERON_0002084      #heart left ventricle
+http://purl.obolibrary.org/obo/UBERON_0002107      #liver
+http://purl.obolibrary.org/obo/UBERON_0002108      #small intestine
+http://purl.obolibrary.org/obo/UBERON_0002110      #gallbladder
+http://purl.obolibrary.org/obo/UBERON_0002113      #kidney
+http://purl.obolibrary.org/obo/UBERON_0002114      #duodenum
+http://purl.obolibrary.org/obo/UBERON_0002135      #mitral valve
+http://purl.obolibrary.org/obo/UBERON_0002186      #bronchiole
+http://purl.obolibrary.org/obo/UBERON_0002211      #nerve root
+http://purl.obolibrary.org/obo/UBERON_0002240      #spinal cord
+http://purl.obolibrary.org/obo/UBERON_0002330      #exocrine system
+http://purl.obolibrary.org/obo/UBERON_0002351      #sinoatrial node
+http://purl.obolibrary.org/obo/UBERON_0002367      #prostate gland
+http://purl.obolibrary.org/obo/UBERON_0002369      #adrenal gland
+http://purl.obolibrary.org/obo/UBERON_0002371      #bone marrow
+http://purl.obolibrary.org/obo/UBERON_0002372      #tonsil
+http://purl.obolibrary.org/obo/UBERON_0003126      #trachea
+http://purl.obolibrary.org/obo/UBERON_0004087      #vena cava
+http://purl.obolibrary.org/obo/UBERON_0004711      #jugular vein
+http://purl.obolibrary.org/obo/UBERON_0006562      #pharynx
+http://purl.obolibrary.org/obo/UBERON_0007221      #neonate stage
+http://purl.obolibrary.org/obo/UBERON_0008987      #renal parenchyma
+http://purl.obolibrary.org/obo/UBERON_0009773      #renal tubule
+http://purl.obolibrary.org/obo/UBERON_0012101      #perinatal stage
+http://purl.obolibrary.org/obo/UBERON_0002185      #bronchus
+http://purl.obolibrary.org/obo/UBERON_0007196  	   #tracheobronchial tree
+http://purl.obolibrary.org/obo/UBERON_0002037 	   #cerebellum
+http://purl.obolibrary.org/obo/NBO_0000313 	   #behavior process
+http://purl.obolibrary.org/obo/ENVO_01000254       #environmental system
+http://purl.obolibrary.org/obo/UBERON_0002410      #autonomic nervous system
+http://purl.obolibrary.org/obo/UBERON_0001154 	   #vermiform appendix, or appendix
+
+
+http://purl.obolibrary.org/obo/UBERON_0000114  	   #lung connective tissue
+http://purl.org/spar/pso/Status 		   #status
+http://purl.obolibrary.org/obo/uberon/refont/ontology_documentation
+
+http://purl.obolibrary.org/obo/UBERON_0001621 # coronary artery
+http://purl.obolibrary.org/obo/UBERON_0034920 #infant stage
+
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/UBERON_0001062
+subClassOf http://purl.obolibrary.org/obo/BFO_0000040
+
+http://purl.obolibrary.org/obo/NBO_0000313
+subClassOf http://purl.obolibrary.org/obo/BFO_0000015 #process
+
+http://purl.obolibrary.org/obo/ENVO_01000254   
+subClassOf http://purl.obolibrary.org/obo/BFO_0000040   #material entity   
+
+http://purl.obolibrary.org/obo/CHEBI_24431 #chemical entity
+subClassOf http://purl.obolibrary.org/obo/BFO_0000040   #material entity
+
+http://purl.obolibrary.org/obo/NCBITaxon_2759
+subClassOf  http://purl.obolibrary.org/obo/OBI_0100026 #organism
+
+http://purl.obolibrary.org/obo/PATO_0001241  #physical object quality
+subClassOf  http://purl.obolibrary.org/obo/BFO_0000019
+
+http://purl.org/spar/pso/Status 
+subClassOf  http://purl.obolibrary.org/obo/IAO_0000030  #information content entity
+
+http://purl.obolibrary.org/obo/uberon/refont/ontology_documentation
+subClassOf  http://purl.obolibrary.org/obo/IAO_0000030  #information content entity
+
+http://purl.obolibrary.org/obo/UBERON_0000105 #life cycle stage
+subClassOf http://purl.obolibrary.org/obo/BFO_0000015 #process
+
+http://purl.obolibrary.org/obo/UBERON_0000103
+subClassOf http://purl.obolibrary.org/obo/BFO_0000015 #process
+
+http://purl.obolibrary.org/obo/GO_0005575  #cellular_component
+subClassOf http://purl.obolibrary.org/obo/BFO_0000040   #material entity
+
+http://purl.obolibrary.org/obo/CL_0000000  #cell
+subClassOf http://purl.obolibrary.org/obo/BFO_0000040   #material entity
+
+http://purl.obolibrary.org/obo/GO_0008150  #biological process
+subClassOf http://purl.obolibrary.org/obo/BFO_0000015 #process
+
+http://purl.obolibrary.org/obo/PR_000018263  #amino acid change
+subClassOf http://purl.obolibrary.org/obo/BFO_0000040   #material entity
+
+
+
+[Source term retrieval setting]
+#includeComputedIntermediates
+includeAllIntermediates
+
+[Branch extractions from source term URIs and target direct superclass URIs]
+
+[Source annotation URIs]
+includeAllAxiomsRecursively
+#http://www.w3.org/2000/01/rdf-schema#label
+#http://purl.obolibrary.org/obo/IAO_0000115 

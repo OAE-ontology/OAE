@@ -1,0 +1,64 @@
+[URI of the OWL(RDF/XML) output file]
+http://purl.obolibrary.org/obo/oae/OBI_import.owl
+
+[Source ontology]
+OBI
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/OBI_0000047 #processed material
+http://purl.obolibrary.org/obo/OBI_0100026 #organism
+
+http://purl.obolibrary.org/obo/OBI_0302910 #prediction
+http://purl.obolibrary.org/obo/OBI_0600007 #administering substance in vivo
+http://purl.obolibrary.org/obo/OBI_0000011 #planned process
+
+http://purl.obolibrary.org/obo/OBI_0000293 #has_specified_input
+http://purl.obolibrary.org/obo/OBI_0000299 #has_specified_output
+
+http://purl.obolibrary.org/obo/OBI_0000319 #material to be added role
+http://purl.obolibrary.org/obo/OBI_0000444 #target of material addition role
+http://purl.obolibrary.org/obo/OBI_0000093 #patient role (OBI)
+
+http://purl.obolibrary.org/obo/IAO_0000027 #data item
+http://purl.obolibrary.org/obo/IAO_0000030 #information content entity
+http://purl.obolibrary.org/obo/IAO_0000415 #hypothesis textual entity
+
+
+# the following relations are all obsolete.
+# http://purl.obolibrary.org/obo/OBI_0000300 #is_realized_by
+# http://purl.obolibrary.org/obo/OBI_0000306 #has_function
+# http://purl.obolibrary.org/obo/OBI_0000308 #realizes
+# http://purl.obolibrary.org/obo/OBI_0000316 #has_role
+# http://purl.obolibrary.org/obo/OBI_0000298 #has_quality
+
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/OBI_0000011 #planned process
+subClassOf http://purl.obolibrary.org/obo/BFO_0000015
+
+http://purl.obolibrary.org/obo/OBI_0000319 #material to be added role
+subClassOf http://purl.obolibrary.org/obo/BFO_0000023
+
+http://purl.obolibrary.org/obo/OBI_0000444 #target of material addition role
+subClassOf http://purl.obolibrary.org/obo/BFO_0000023
+
+http://purl.obolibrary.org/obo/OBI_0000093 #patient role (OBI)
+subClassOf http://purl.obolibrary.org/obo/BFO_0000023
+
+http://purl.obolibrary.org/obo/OBI_0000047 #processed material
+subClassOf http://purl.obolibrary.org/obo/BFO_0000040
+
+http://purl.obolibrary.org/obo/OBI_0100026 #organism
+subClassOf http://purl.obolibrary.org/obo/BFO_0000040
+
+http://purl.obolibrary.org/obo/IAO_0000030 #information content entity
+subClassOf http://purl.obolibrary.org/obo/BFO_0000031  # generically dependent continuant
+
+[Source term retrieval setting]
+includeAllIntermediates
+
+[Branch extractions from source term URIs and target direct superclass URIs]
+
+
+[Source annotation URIs]
+includeAllAnnotationProperties 

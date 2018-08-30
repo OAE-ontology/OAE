@@ -1,0 +1,158 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY obo "http://purl.obolibrary.org/obo/" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<rdf:RDF xmlns="&obo;oae/VO_import.owl#"
+     xml:base="&obo;oae/VO_import.owl"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+    <owl:Ontology rdf:about="&obo;oae/VO_import.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <owl:AnnotationProperty rdf:about="&obo;IAO_0000115">
+        <rdfs:label rdf:datatype="&xsd;string">definition</rdfs:label>
+        <rdfs:label>definition</rdfs:label>
+        <rdfs:label xml:lang="en">definition</rdfs:label>
+        <obo:IAO_0000115 xml:lang="en">The official OBI definition, explaining the meaning of a class or property. Shall be Aristotelian, formalized and normalized. Can be augmented with colloquial definitions.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">The official definition, explaining the meaning of a class or property. Shall be Aristotelian, formalized and normalized. Can be augmented with colloquial definitions.</obo:IAO_0000115>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="&obo;IAO_0000412">
+        <rdfs:label xml:lang="en">imported from</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Datatypes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000002 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000002"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0000011 -->
+
+    <owl:Class rdf:about="&obo;OBI_0000011">
+        <rdfs:label xml:lang="en">planned process</rdfs:label>
+        <obo:IAO_0000115 xml:lang="en">A processual entity that realizes a plan which is the concretization of a plan specification.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;vo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0000047 -->
+
+    <owl:Class rdf:about="&obo;OBI_0000047">
+        <rdfs:label xml:lang="en">processed material</rdfs:label>
+        <obo:IAO_0000115 xml:lang="en">Is a material entity that is created or changed during material processing.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;vo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0000001 -->
+
+    <owl:Class rdf:about="&obo;VO_0000001">
+        <rdfs:label>vaccine</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;OBI_0000047"/>
+        <obo:IAO_0000115>A vaccine is a processed material with the function that when administered, it prevents or ameliorates a disorder in a target organism by inducing or modifying adaptive immune responses specific to the antigens in the vaccine.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;vo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0000002 -->
+
+    <owl:Class rdf:about="&obo;VO_0000002">
+        <rdfs:label>vaccination</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;OAE_0000002"/>
+        <obo:IAO_0000115>a medical intervention that involves in adding vaccine into a host (e.g., human, mouse) in vivo with the intent to invoke an adaptive immune response.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;vo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0000006 -->
+
+    <owl:Class rdf:about="&obo;VO_0000006">
+        <rdfs:label>Afluria</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;VO_0000642"/>
+        <obo:IAO_0000412 rdf:resource="&obo;vo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0000043 -->
+
+    <owl:Class rdf:about="&obo;VO_0000043">
+        <rdfs:label>FluLaval</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;VO_0000642"/>
+        <obo:IAO_0000412 rdf:resource="&obo;vo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0000044 -->
+
+    <owl:Class rdf:about="&obo;VO_0000044">
+        <rdfs:label>FluMist</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;VO_0000642"/>
+        <obo:IAO_0000412 rdf:resource="&obo;vo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0000642 -->
+
+    <owl:Class rdf:about="&obo;VO_0000642">
+        <rdfs:label>Influenza virus vaccine</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;VO_0000001"/>
+        <obo:IAO_0000115>A viral vaccine that protects against infection with influenza virus.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;vo.owl"/>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.2.5.1928) http://owlapi.sourceforge.net -->
+
