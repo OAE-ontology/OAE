@@ -23,6 +23,12 @@ http://purl.obolibrary.org/obo/IAO_0000027 #data item
 http://purl.obolibrary.org/obo/IAO_0000030 #information content entity
 http://purl.obolibrary.org/obo/IAO_0000415 #hypothesis textual entity
 
+http://purl.obolibrary.org/obo/BFO_0000002 #continuant
+http://purl.obolibrary.org/obo/BFO_0000016 #disposition
+http://purl.obolibrary.org/obo/BFO_0000031 #generically dependent continuant
+http://purl.obolibrary.org/obo/BFO_0000038 #one-dimensional temporal region
+http://purl.obolibrary.org/obo/BFO_0000029 #site
+http://purl.obolibrary.org/obo/BFO_0000148 #zero-dimensional temporal region
 
 # the following relations are all obsolete.
 # http://purl.obolibrary.org/obo/OBI_0000300 #is_realized_by
@@ -33,8 +39,10 @@ http://purl.obolibrary.org/obo/IAO_0000415 #hypothesis textual entity
 
 
 [Top level source term URIs and target direct superclass URIs]
-http://purl.obolibrary.org/obo/OBI_0000011 #planned process
-subClassOf http://purl.obolibrary.org/obo/BFO_0000015
+http://purl.obolibrary.org/obo/BFO_0000001 #entity
+
+# http://purl.obolibrary.org/obo/OBI_0000011 #planned process
+# subClassOf http://purl.obolibrary.org/obo/BFO_0000015
 
 http://purl.obolibrary.org/obo/OBI_0000319 #material to be added role
 subClassOf http://purl.obolibrary.org/obo/BFO_0000023
@@ -45,8 +53,8 @@ subClassOf http://purl.obolibrary.org/obo/BFO_0000023
 http://purl.obolibrary.org/obo/OBI_0000093 #patient role (OBI)
 subClassOf http://purl.obolibrary.org/obo/BFO_0000023
 
-http://purl.obolibrary.org/obo/OBI_0000047 #processed material
-subClassOf http://purl.obolibrary.org/obo/BFO_0000040
+# http://purl.obolibrary.org/obo/OBI_0000047 #processed material
+# subClassOf http://purl.obolibrary.org/obo/BFO_0000040
 
 http://purl.obolibrary.org/obo/OBI_0100026 #organism
 subClassOf http://purl.obolibrary.org/obo/BFO_0000040
@@ -55,7 +63,7 @@ http://purl.obolibrary.org/obo/IAO_0000030 #information content entity
 subClassOf http://purl.obolibrary.org/obo/BFO_0000031  # generically dependent continuant
 
 [Source term retrieval setting]
-includeAllIntermediates
+includeAllAxiomsRecursively
 
 [Branch extractions from source term URIs and target direct superclass URIs]
 
