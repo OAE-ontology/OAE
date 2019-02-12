@@ -18,7 +18,8 @@ The OAE issue tracker website: https://github.com/OAE-ontology/OAE/issues
 - BioPortal: https://bioportal.bioontology.org/ontologies/OAE 
 
 ## Download
-Use the following link to download this ontology
+Use the following link to download this ontology:
+
 https://raw.githubusercontent.com/OAE-ontology/OAE/master/src/oae_merged.owl 
 
 ## Reference
