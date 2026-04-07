@@ -20,5 +20,9 @@ The OAE issue tracker website: https://github.com/OAE-ontology/OAE/issues
 - OAE ontology discussion mailing-list: oae-discuss@googlegroups.com
 - Disussion forum: https://groups.google.com/forum/?hl=en#!forum/oae-discuss 
 
-## Reference
-Yongqun He Y, Sirarat Sarntivijai, Yu Lin, Zuoshuang Xiang, Abra Guo, Shelley Zhang, Desikan Jagannathan, Luca Toldo, Cui Tao and Barry Smith. OAE: The Ontology of Adverse Events. Journal of Biomedical Semantics. 2014, 5:29  doi:10.1186/2041-1480-5-29. PMID: [25093068](https://www.ncbi.nlm.nih.gov/pubmed/25093068). PMCID: [PMC4120740](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4120740/). 
+## Publications:
+
+Pan C, Yang Q, Zhang X, Luo S, He Y, Xie J. The Ontology of Adverse Events in 2025. _Sci Data_. 2026 Jan 13;13(1):259. doi: 10.1038/s41597-026-06584-x. PMID: [41526409](https://pubmed.ncbi.nlm.nih.gov/41526409/). PMCID: [PMC12917244](https://pmc.ncbi.nlm.nih.gov/articles/PMC12917244/). 
+
+Yongqun He Y, Sirarat Sarntivijai, Yu Lin, Zuoshuang Xiang, Abra Guo, Shelley Zhang, Desikan Jagannathan, Luca Toldo, Cui Tao and Barry Smith. OAE: The Ontology of Adverse Events. _Journal of Biomedical Semantics_. 2014, 5:29  doi:10.1186/2041-1480-5-29. PMID: [25093068](https://www.ncbi.nlm.nih.gov/pubmed/25093068). PMCID: [PMC4120740](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4120740/). 
+
