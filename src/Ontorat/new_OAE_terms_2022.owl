@@ -177,25 +177,19 @@
 
     <!-- http://purl.obolibrary.org/obo/OAE_0001849 -->
 
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/OAE_0001849">
-        <rdfs:label>Chinese translation</rdfs:label>
-    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/OAE_0001849"/>
     
 
 
     <!-- http://purl.obolibrary.org/obo/OAE_0003232 -->
 
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/OAE_0003232">
-        <rdfs:label>adverse event outcome</rdfs:label>
-    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/OAE_0003232"/>
     
 
 
     <!-- http://purl.obolibrary.org/obo/OAE_0004334 -->
 
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/OAE_0004334">
-        <rdfs:label>has_MedDRA_id</rdfs:label>
-    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/OAE_0004334"/>
     
 
 
@@ -1032,7 +1026,6 @@
     <!-- http://purl.obolibrary.org/obo/OAE_0000266 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0000266">
-        <obo:IAO_0000115>This is an AE which is a condition in which the adrenal glands do not produce adequate amounts of steroid hormones, primarily cortisol; but may also include impaired production of aldosterone (a mineralocorticoid), which regulates sodium conservation, potassium secretion, and water retention.</obo:IAO_0000115>
         <obo:IAO_0000117>QY, JX, HY</obo:IAO_0000117>
         <obo:IAO_0000119>http://en.volupedia.org/wiki/Adrenal_insufficiency</obo:IAO_0000119>
         <obo:OAE_0001849>肾上腺抑制</obo:OAE_0001849>
@@ -2316,12 +2309,10 @@
     <!-- http://purl.obolibrary.org/obo/OAE_0000761 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0000761">
-        <obo:IAO_0000115>This is an AE which is excess accumulation of fluid (edema) in the intracellular or extracellular spaces of the brain.</obo:IAO_0000115>
         <obo:IAO_0000117>QY, JX, HY</obo:IAO_0000117>
         <obo:IAO_0000119>http://en.volupedia.org/wiki/Cerebral_edema</obo:IAO_0000119>
         <obo:OAE_0001849>脑部水肿</obo:OAE_0001849>
         <obo:OAE_0004334>10048962</obo:OAE_0004334>
-        <rdfs:label>brain edema AE</rdfs:label>
     </owl:Class>
     
 
@@ -3512,48 +3503,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/OAE_0001610 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0001610">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0002144"/>
-        <obo:IAO_0000115>This is an AE which is a symptom associated with both non-serious and serious medical issues.</obo:IAO_0000115>
-        <obo:IAO_0000117>QY, JX, HY</obo:IAO_0000117>
-        <obo:IAO_0000119>http://en.volupedia.org/wiki/Abdominal_pain</obo:IAO_0000119>
-        <obo:OAE_0001849>腹挤压伤</obo:OAE_0001849>
-        <obo:OAE_0004334>10000044</obo:OAE_0004334>
-        <rdfs:label>abdomen crushing AE</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OAE_0001628 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0001628">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000208"/>
-        <obo:IAO_0000115>This is an AE which is the protrusion of contents of the abdomen through a defect or weakness in the abdominal wall.</obo:IAO_0000115>
-        <obo:IAO_0000117>QY, JX, HY</obo:IAO_0000117>
-        <obo:IAO_0000119>http://en.volupedia.org/wiki/Eventration</obo:IAO_0000119>
-        <obo:OAE_0001849>疝腹脏突出</obo:OAE_0001849>
-        <obo:OAE_0004334>10057391</obo:OAE_0004334>
-        <rdfs:label>hernial eventration AE</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OAE_0001635 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0001635">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0002352"/>
-        <obo:IAO_0000115>This is an AE which is most commonly caused by abdominal surgical procedures and the adhesions start to form within hours of surgery and may cause internal organs to attach  to other organs in the abdominal cavity.</obo:IAO_0000115>
-        <obo:IAO_0000117>QY, JX, HY</obo:IAO_0000117>
-        <obo:IAO_0000119>http://en.volupedia.org/wiki/Adhesion_(medicine)#Abdominal_adhesions</obo:IAO_0000119>
-        <obo:OAE_0001849>腹部粘连</obo:OAE_0001849>
-        <obo:OAE_0004334>10000050</obo:OAE_0004334>
-        <rdfs:label>abdominal adhesions AE</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/OAE_0001644 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0001644"/>
@@ -3572,20 +3521,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/OAE_0001658 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0001658">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0002433"/>
-        <obo:IAO_0000115>This is an AE which occurs when the abdomen becomes subject to increased pressure reaching past the point of intra-abdominal hypertension (IAH).</obo:IAO_0000115>
-        <obo:IAO_0000117>QY, JX, HY</obo:IAO_0000117>
-        <obo:IAO_0000119>http://en.volupedia.org/wiki/Abdominal_compartment_syndrome</obo:IAO_0000119>
-        <obo:OAE_0001849>腹腔间室综合征</obo:OAE_0001849>
-        <obo:OAE_0004334>10058808</obo:OAE_0004334>
-        <rdfs:label>abdominal compartment syndrome AE</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/OAE_0001662 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0001662"/>
@@ -3601,20 +3536,6 @@
     <!-- http://purl.obolibrary.org/obo/OAE_0001666 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0001666"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OAE_0001679 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0001679">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0004352"/>
-        <obo:IAO_0000115>This is an AE which is the abnormal exit of tissue or an organ, such as the bowel, through the wall of the cavity in which it normally resides.</obo:IAO_0000115>
-        <obo:IAO_0000117>QY, JX, HY</obo:IAO_0000117>
-        <obo:IAO_0000119>http://en.volupedia.org/wiki/Hernia#Individual_hernias</obo:IAO_0000119>
-        <obo:OAE_0001849>腹疝</obo:OAE_0001849>
-        <obo:OAE_0004334>10060954</obo:OAE_0004334>
-        <rdfs:label>abdominal hernia AE</rdfs:label>
-    </owl:Class>
     
 
 
@@ -4236,20 +4157,6 @@
     <!-- http://purl.obolibrary.org/obo/OAE_0002395 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0002395"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OAE_0002397 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0002397">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000402"/>
-        <obo:IAO_0000115>This is an AE which is an injury to the abdomen and its signs and symptoms include abdominal pain, tenderness, rigidity, and bruising of the external abdomen.</obo:IAO_0000115>
-        <obo:IAO_0000117>QY, JX, HY</obo:IAO_0000117>
-        <obo:IAO_0000119>http://en.volupedia.org/wiki/Abdominal_trauma</obo:IAO_0000119>
-        <obo:OAE_0001849>腹部损伤</obo:OAE_0001849>
-        <obo:OAE_0004334>10060924</obo:OAE_0004334>
-        <rdfs:label>abdominal injury AE</rdfs:label>
-    </owl:Class>
     
 
 
@@ -5328,7 +5235,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0004453">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000197"/>
-        <obo:IAO_0000115>This is an AE which is a medical condition involving the death of tubular epithelial cells that form the renal tubules of the kidneys.</obo:IAO_0000115>
         <obo:IAO_0000117>QY, JX, HY</obo:IAO_0000117>
         <obo:IAO_0000119>http://en.volupedia.org/wiki/Acute_tubular_necrosis</obo:IAO_0000119>
         <obo:OAE_0001849>肾小管坏死</obo:OAE_0001849>
@@ -50403,7 +50309,7 @@
     <!-- http://purl.obolibrary.org/obo/OAE_0007877 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0007877">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0002397"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0009416"/>
         <obo:IAO_0000115>This is an AE which is a class of joint disorder (called arthropathy) that is characterized by accumulation of tiny crystals in one or more joints.</obo:IAO_0000115>
         <obo:IAO_0000117>QY, JX, HY</obo:IAO_0000117>
         <obo:IAO_0000119>http://en.volupedia.org/wiki/Crystal_arthropathy</obo:IAO_0000119>
@@ -51481,7 +51387,7 @@
     <!-- http://purl.obolibrary.org/obo/OAE_0007954 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0007954">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0002397"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0009416"/>
         <obo:IAO_0000115>This is an AE which is a long-term inflammatory arthritis that occurs in people affected by the autoimmune disease psoriasis.</obo:IAO_0000115>
         <obo:IAO_0000117>QY, JX, HY</obo:IAO_0000117>
         <obo:IAO_0000119>http://en.volupedia.org/wiki/Psoriatic_arthritis</obo:IAO_0000119>
@@ -71242,6 +71148,90 @@
         <obo:OAE_0001849>面部压伤</obo:OAE_0001849>
         <obo:OAE_0004334>10016023</obo:OAE_0004334>
         <rdfs:label>face crushing AE</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0009411 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0009411">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0002144"/>
+        <obo:IAO_0000115>This is an AE which is a symptom associated with both non-serious and serious medical issues.</obo:IAO_0000115>
+        <obo:IAO_0000117>QY, JX, HY</obo:IAO_0000117>
+        <obo:IAO_0000119>http://en.volupedia.org/wiki/Abdominal_pain</obo:IAO_0000119>
+        <obo:OAE_0001849>腹挤压伤</obo:OAE_0001849>
+        <obo:OAE_0004334>10000044</obo:OAE_0004334>
+        <rdfs:label>abdomen crushing AE</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0009412 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0009412">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000208"/>
+        <obo:IAO_0000115>This is an AE which is the protrusion of contents of the abdomen through a defect or weakness in the abdominal wall.</obo:IAO_0000115>
+        <obo:IAO_0000117>QY, JX, HY</obo:IAO_0000117>
+        <obo:IAO_0000119>http://en.volupedia.org/wiki/Eventration</obo:IAO_0000119>
+        <obo:OAE_0001849>疝腹脏突出</obo:OAE_0001849>
+        <obo:OAE_0004334>10057391</obo:OAE_0004334>
+        <rdfs:label>hernial eventration AE</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0009413 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0009413">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0002352"/>
+        <obo:IAO_0000115>This is an AE which is most commonly caused by abdominal surgical procedures and the adhesions start to form within hours of surgery and may cause internal organs to attach  to other organs in the abdominal cavity.</obo:IAO_0000115>
+        <obo:IAO_0000117>QY, JX, HY</obo:IAO_0000117>
+        <obo:IAO_0000119>http://en.volupedia.org/wiki/Adhesion_(medicine)#Abdominal_adhesions</obo:IAO_0000119>
+        <obo:OAE_0001849>腹部粘连</obo:OAE_0001849>
+        <obo:OAE_0004334>10000050</obo:OAE_0004334>
+        <rdfs:label>abdominal adhesions AE</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0009414 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0009414">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0002433"/>
+        <obo:IAO_0000115>This is an AE which occurs when the abdomen becomes subject to increased pressure reaching past the point of intra-abdominal hypertension (IAH).</obo:IAO_0000115>
+        <obo:IAO_0000117>QY, JX, HY</obo:IAO_0000117>
+        <obo:IAO_0000119>http://en.volupedia.org/wiki/Abdominal_compartment_syndrome</obo:IAO_0000119>
+        <obo:OAE_0001849>腹腔间室综合征</obo:OAE_0001849>
+        <obo:OAE_0004334>10058808</obo:OAE_0004334>
+        <rdfs:label>abdominal compartment syndrome AE</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0009415 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0009415">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0004352"/>
+        <obo:IAO_0000115>This is an AE which is the abnormal exit of tissue or an organ, such as the bowel, through the wall of the cavity in which it normally resides.</obo:IAO_0000115>
+        <obo:IAO_0000117>QY, JX, HY</obo:IAO_0000117>
+        <obo:IAO_0000119>http://en.volupedia.org/wiki/Hernia#Individual_hernias</obo:IAO_0000119>
+        <obo:OAE_0001849>腹疝</obo:OAE_0001849>
+        <obo:OAE_0004334>10060954</obo:OAE_0004334>
+        <rdfs:label>abdominal hernia AE</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0009416 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0009416">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000402"/>
+        <obo:IAO_0000115>This is an AE which is an injury to the abdomen and its signs and symptoms include abdominal pain, tenderness, rigidity, and bruising of the external abdomen.</obo:IAO_0000115>
+        <obo:IAO_0000117>QY, JX, HY</obo:IAO_0000117>
+        <obo:IAO_0000119>http://en.volupedia.org/wiki/Abdominal_trauma</obo:IAO_0000119>
+        <obo:OAE_0001849>腹部损伤</obo:OAE_0001849>
+        <obo:OAE_0004334>10060924</obo:OAE_0004334>
+        <rdfs:label>abdominal injury AE</rdfs:label>
     </owl:Class>
 </rdf:RDF>
 
