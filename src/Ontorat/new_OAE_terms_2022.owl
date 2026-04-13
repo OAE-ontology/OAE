@@ -713,7 +713,10 @@
 
     <!-- http://purl.obolibrary.org/obo/OAE_0000048 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0000048"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0000048">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000443"/>
+        <obo:IAO_0000117>QY, JX, HY</obo:IAO_0000117>
+    </owl:Class>
     
 
 
@@ -947,7 +950,12 @@
 
     <!-- http://purl.obolibrary.org/obo/OAE_0000213 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0000213"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0000213">
+        <obo:IAO_0000117>QY, JX, HY</obo:IAO_0000117>
+        <obo:IAO_0000119>http://en.volupedia.org/wiki/Extravasation</obo:IAO_0000119>
+        <obo:OAE_0001849>外渗</obo:OAE_0001849>
+        <obo:OAE_0004334>10015866</obo:OAE_0004334>
+    </owl:Class>
     
 
 
@@ -1013,7 +1021,34 @@
 
     <!-- http://purl.obolibrary.org/obo/OAE_0000265 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0000265"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0000265">
+        <obo:IAO_0000117>QY, JX, HY</obo:IAO_0000117>
+        <obo:IAO_0000119>http://en.volupedia.org/wiki/Neoplasm</obo:IAO_0000119>
+        <obo:OAE_0001849>肾上腺肿瘤</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000266 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0000266">
+        <obo:IAO_0000115>This is an AE which is a condition in which the adrenal glands do not produce adequate amounts of steroid hormones, primarily cortisol; but may also include impaired production of aldosterone (a mineralocorticoid), which regulates sodium conservation, potassium secretion, and water retention.</obo:IAO_0000115>
+        <obo:IAO_0000117>QY, JX, HY</obo:IAO_0000117>
+        <obo:IAO_0000119>http://en.volupedia.org/wiki/Adrenal_insufficiency</obo:IAO_0000119>
+        <obo:OAE_0001849>肾上腺抑制</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000268 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0000268">
+        <obo:IAO_0000115>This is an AE which is an acute condition involving a severe and dangerous lowered white blood cell count (leukopenia, most commonly of neutrophils) and thus causing a neutropenia in the circulating blood.</obo:IAO_0000115>
+        <obo:IAO_0000117>QY, JX, HY</obo:IAO_0000117>
+        <obo:IAO_0000119>http://en.volupedia.org/wiki/Agranulocytosis</obo:IAO_0000119>
+        <obo:OAE_0001849>粒细胞减少症</obo:OAE_0001849>
+        <obo:OAE_0004334>10001507</obo:OAE_0004334>
+    </owl:Class>
     
 
 
@@ -1049,7 +1084,11 @@
 
     <!-- http://purl.obolibrary.org/obo/OAE_0000304 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0000304"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0000304">
+        <obo:IAO_0000117>QY, JX, HY</obo:IAO_0000117>
+        <obo:IAO_0000119>http://en.volupedia.org/wiki/Cellulitis</obo:IAO_0000119>
+        <obo:OAE_0001849>蜂窝织炎</obo:OAE_0001849>
+    </owl:Class>
     
 
 
@@ -1061,7 +1100,12 @@
 
     <!-- http://purl.obolibrary.org/obo/OAE_0000307 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0000307"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0000307">
+        <obo:IAO_0000117>QY, JX, HY</obo:IAO_0000117>
+        <obo:IAO_0000119>http://en.volupedia.org/wiki/Gait_abnormality</obo:IAO_0000119>
+        <obo:OAE_0001849>行走困难</obo:OAE_0001849>
+        <obo:OAE_0004334>10012794</obo:OAE_0004334>
+    </owl:Class>
     
 
 
@@ -1152,6 +1196,18 @@
     <!-- http://purl.obolibrary.org/obo/OAE_0000341 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0000341"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000342 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0000342">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0002053"/>
+        <obo:IAO_0000117>QY, JX, HY</obo:IAO_0000117>
+        <obo:IAO_0000119>http://en.volupedia.org/wiki/Edema</obo:IAO_0000119>
+        <obo:OAE_0001849>咽部水肿</obo:OAE_0001849>
+        <obo:OAE_0004334>10034829</obo:OAE_0004334>
+    </owl:Class>
     
 
 
@@ -1307,7 +1363,11 @@
 
     <!-- http://purl.obolibrary.org/obo/OAE_0000397 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0000397"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0000397">
+        <obo:IAO_0000117>QY, JX, HY</obo:IAO_0000117>
+        <obo:IAO_0000119>http://en.volupedia.org/wiki/Edema</obo:IAO_0000119>
+        <obo:OAE_0001849>脸部水肿</obo:OAE_0001849>
+    </owl:Class>
     
 
 
@@ -1473,12 +1533,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/OAE_0000444 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0000444"/>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/OAE_0000447 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0000447"/>
@@ -1506,6 +1560,18 @@
     <!-- http://purl.obolibrary.org/obo/OAE_0000460 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0000460"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000462 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0000462">
+        <obo:IAO_0000115>This is an AE which is inflammation of the bronchi (large and medium-sized airways) in the lungs that causes coughing.</obo:IAO_0000115>
+        <obo:IAO_0000117>QY, JX, HY</obo:IAO_0000117>
+        <obo:IAO_0000119>http://en.volupedia.org/wiki/Bronchitis</obo:IAO_0000119>
+        <obo:OAE_0001849>支气管炎</obo:OAE_0001849>
+        <obo:OAE_0004334>10006451</obo:OAE_0004334>
+    </owl:Class>
     
 
 
@@ -1541,7 +1607,12 @@
 
     <!-- http://purl.obolibrary.org/obo/OAE_0000472 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0000472"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0000472">
+        <obo:IAO_0000117>QY, JX, HY</obo:IAO_0000117>
+        <obo:IAO_0000119>http://en.volupedia.org/wiki/Edema</obo:IAO_0000119>
+        <obo:OAE_0001849>舌水肿</obo:OAE_0001849>
+        <obo:OAE_0004334>10043967</obo:OAE_0004334>
+    </owl:Class>
     
 
 
@@ -1655,7 +1726,12 @@
 
     <!-- http://purl.obolibrary.org/obo/OAE_0000508 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0000508"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0000508">
+        <obo:IAO_0000115>This is an AE which is bleeding from the nose.</obo:IAO_0000115>
+        <obo:IAO_0000117>QY, JX, HY</obo:IAO_0000117>
+        <obo:IAO_0000119>http://en.volupedia.org/wiki/Nosebleed</obo:IAO_0000119>
+        <obo:OAE_0001849>鼻出血</obo:OAE_0001849>
+    </owl:Class>
     
 
 
@@ -1721,7 +1797,11 @@
 
     <!-- http://purl.obolibrary.org/obo/OAE_0000525 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0000525"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0000525">
+        <obo:IAO_0000117>QY, JX, HY</obo:IAO_0000117>
+        <obo:IAO_0000119>http://en.volupedia.org/wiki/Myopathy</obo:IAO_0000119>
+        <obo:OAE_0001849>肌病</obo:OAE_0001849>
+    </owl:Class>
     
 
 
@@ -1745,7 +1825,23 @@
 
     <!-- http://purl.obolibrary.org/obo/OAE_0000534 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0000534"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0000534">
+        <obo:IAO_0000115>This is an AE which is a medical condition in which poor blood flow to the brain causes cell death.</obo:IAO_0000115>
+        <obo:IAO_0000117>QY, JX, HY</obo:IAO_0000117>
+        <obo:IAO_0000119>http://en.volupedia.org/wiki/Stroke</obo:IAO_0000119>
+        <obo:OAE_0001849>脑血管中风</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000536 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0000536">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000554"/>
+        <obo:IAO_0000117>QY, JX, HY</obo:IAO_0000117>
+        <obo:IAO_0000119>http://en.volupedia.org/wiki/Flatulence</obo:IAO_0000119>
+        <obo:OAE_0001849>肠胃气胀</obo:OAE_0001849>
+    </owl:Class>
     
 
 
@@ -1787,7 +1883,15 @@
 
     <!-- http://purl.obolibrary.org/obo/OAE_0000550 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0000550"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0000550">
+        <obo:IAO_0000117>QY, JX, HY</obo:IAO_0000117>
+        <obo:IAO_0000119>http://en.volupedia.org/wiki/Alkalosis</obo:IAO_0000119>
+        <obo:IAO_0000119>http://en.volupedia.org/wiki/Anemia</obo:IAO_0000119>
+        <obo:OAE_0001849>碱毒症</obo:OAE_0001849>
+        <obo:OAE_0001849>贫血</obo:OAE_0001849>
+        <obo:OAE_0004334>10001680</obo:OAE_0004334>
+        <obo:OAE_0004334>10002034</obo:OAE_0004334>
+    </owl:Class>
     
 
 
@@ -2117,13 +2221,29 @@
 
     <!-- http://purl.obolibrary.org/obo/OAE_0000668 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0000668"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0000668">
+        <obo:IAO_0000117>QY, JX, HY</obo:IAO_0000117>
+        <obo:IAO_0000119>http://en.volupedia.org/wiki/Skin_condition#Secondary_lesions</obo:IAO_0000119>
+        <obo:OAE_0001849>表皮脱落</obo:OAE_0001849>
+    </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/OAE_0000672 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0000672"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000681 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0000681">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0004244"/>
+        <obo:IAO_0000117>QY, JX, HY</obo:IAO_0000117>
+        <obo:IAO_0000119>http://en.volupedia.org/wiki/Edema</obo:IAO_0000119>
+        <obo:OAE_0001849>眶周水肿</obo:OAE_0001849>
+        <obo:OAE_0004334>10034545</obo:OAE_0004334>
+    </owl:Class>
     
 
 
@@ -2195,7 +2315,14 @@
 
     <!-- http://purl.obolibrary.org/obo/OAE_0000761 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0000761"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0000761">
+        <obo:IAO_0000115>This is an AE which is excess accumulation of fluid (edema) in the intracellular or extracellular spaces of the brain.</obo:IAO_0000115>
+        <obo:IAO_0000117>QY, JX, HY</obo:IAO_0000117>
+        <obo:IAO_0000119>http://en.volupedia.org/wiki/Cerebral_edema</obo:IAO_0000119>
+        <obo:OAE_0001849>脑部水肿</obo:OAE_0001849>
+        <obo:OAE_0004334>10048962</obo:OAE_0004334>
+        <rdfs:label>brain edema AE</rdfs:label>
+    </owl:Class>
     
 
 
@@ -2237,7 +2364,11 @@
 
     <!-- http://purl.obolibrary.org/obo/OAE_0000784 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0000784"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0000784">
+        <obo:IAO_0000117>QY, JX, HY</obo:IAO_0000117>
+        <obo:IAO_0000119>http://en.volupedia.org/wiki/Cardiogenic_shock</obo:IAO_0000119>
+        <obo:OAE_0001849>心原性休克</obo:OAE_0001849>
+    </owl:Class>
     
 
 
@@ -2267,13 +2398,21 @@
 
     <!-- http://purl.obolibrary.org/obo/OAE_0000801 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0000801"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0000801">
+        <obo:IAO_0000117>QY, JX, HY</obo:IAO_0000117>
+        <obo:IAO_0000119>http://en.volupedia.org/wiki/Intracerebral_hemorrhage</obo:IAO_0000119>
+        <obo:OAE_0001849>脑出血</obo:OAE_0001849>
+    </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/OAE_0000805 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0000805"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0000805">
+        <obo:IAO_0000117>QY, JX, HY</obo:IAO_0000117>
+        <obo:IAO_0000119>http://en.volupedia.org/wiki/Cheilitis</obo:IAO_0000119>
+        <obo:OAE_0001849>唇炎</obo:OAE_0001849>
+    </owl:Class>
     
 
 
@@ -2298,6 +2437,16 @@
     <!-- http://purl.obolibrary.org/obo/OAE_0000825 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0000825"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000826 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0000826">
+        <obo:IAO_0000117>QY, JX, HY</obo:IAO_0000117>
+        <obo:IAO_0000119>http://en.volupedia.org/wiki/Collapsed_lung_(disambiguation)</obo:IAO_0000119>
+        <obo:OAE_0001849>肺萎陷</obo:OAE_0001849>
+    </owl:Class>
     
 
 
@@ -2363,7 +2512,12 @@
 
     <!-- http://purl.obolibrary.org/obo/OAE_0000880 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0000880"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0000880">
+        <obo:IAO_0000115>This is an AE which is a dislocation of an irregular bone with a complex structure composed of bone and some hyaline cartilage, the proportions of which vary according to the segment of the backbone and the species of vertebrate.</obo:IAO_0000115>
+        <obo:IAO_0000117>QY, JX, HY</obo:IAO_0000117>
+        <obo:IAO_0000119>http://en.volupedia.org/wiki/Vertebra</obo:IAO_0000119>
+        <obo:OAE_0001849>椎体脱位，腰椎脱位</obo:OAE_0001849>
+    </owl:Class>
     
 
 
@@ -2463,9 +2617,43 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/OAE_0000928 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0000928">
+        <obo:IAO_0000117>QY, JX, HY</obo:IAO_0000117>
+        <obo:IAO_0000119>http://en.volupedia.org/wiki/Rash</obo:IAO_0000119>
+        <obo:OAE_0001849>表皮剥脱的皮疹</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000929 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0000929">
+        <obo:IAO_0000117>QY, JX, HY</obo:IAO_0000117>
+        <obo:IAO_0000119>http://en.volupedia.org/wiki/Omphalocele</obo:IAO_0000119>
+        <obo:OAE_0001849>脐突出</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/OAE_0000932 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0000932"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0000932">
+        <obo:IAO_0000117>QY, JX, HY</obo:IAO_0000117>
+        <obo:IAO_0000119>https://pubmed.ncbi.nlm.nih.gov/20060254/</obo:IAO_0000119>
+        <obo:OAE_0001849>硬膜外脓肿</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000933 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0000933">
+        <obo:IAO_0000117>QY, JX, HY</obo:IAO_0000117>
+        <obo:IAO_0000119>http://en.volupedia.org/wiki/Ophthalmoparesis</obo:IAO_0000119>
+        <obo:OAE_0001849>眼外肌轻度瘫痪</obo:OAE_0001849>
+    </owl:Class>
     
 
 
@@ -2495,13 +2683,36 @@
 
     <!-- http://purl.obolibrary.org/obo/OAE_0000947 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0000947"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0000947">
+        <obo:IAO_0000115>This is an AE which is a common side effect of various medical conditions which manifests as a reduced sense of oral touch or sensation, or a partial loss of sensitivity to sensory stimuli.</obo:IAO_0000115>
+        <obo:IAO_0000117>QY, JX, HY</obo:IAO_0000117>
+        <obo:IAO_0000119>http://en.volupedia.org/wiki/Hypoesthesia</obo:IAO_0000119>
+        <obo:OAE_0001849>口腔触觉减退</obo:OAE_0001849>
+    </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/OAE_0000953 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0000953"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0000953">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000543"/>
+        <obo:IAO_0000115>This is an AE which is the infection and inflammation of one or more hair follicles.</obo:IAO_0000115>
+        <obo:IAO_0000117>QY, JX, HY</obo:IAO_0000117>
+        <obo:IAO_0000119>http://en.volupedia.org/wiki/Folliculitis</obo:IAO_0000119>
+        <obo:OAE_0001849>毛囊炎</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000955 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0000955">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000956"/>
+        <obo:IAO_0000115>This is an AE which is the region of the upper limb between the elbow and the wrist which is fracture.</obo:IAO_0000115>
+        <obo:IAO_0000117>QY, JX, HY</obo:IAO_0000117>
+        <obo:IAO_0000119>http://en.volupedia.org/wiki/Forearm#Fracture</obo:IAO_0000119>
+        <obo:OAE_0001849>前臂骨折</obo:OAE_0001849>
+    </owl:Class>
     
 
 
@@ -2567,7 +2778,24 @@
 
     <!-- http://purl.obolibrary.org/obo/OAE_0001013 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0001013"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0001013">
+        <obo:IAO_0000115>This is an AE which is the coughing up of blood or blood-stained mucus from the bronchi, larynx, trachea, or lungs.</obo:IAO_0000115>
+        <obo:IAO_0000117>QY, JX, HY</obo:IAO_0000117>
+        <obo:IAO_0000119>http://en.volupedia.org/wiki/Hemoptysis</obo:IAO_0000119>
+        <obo:OAE_0001849>咯血</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001014 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0001014">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0002677"/>
+        <obo:IAO_0000115>This is an AE which is bleeding within the skull.</obo:IAO_0000115>
+        <obo:IAO_0000117>QY, JX, HY</obo:IAO_0000117>
+        <obo:IAO_0000119>http://en.volupedia.org/wiki/Intracranial_hemorrhage</obo:IAO_0000119>
+        <obo:OAE_0001849>颅内出血</obo:OAE_0001849>
+    </owl:Class>
     
 
 
@@ -2675,13 +2903,29 @@
 
     <!-- http://purl.obolibrary.org/obo/OAE_0001126 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0001126"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0001126">
+        <obo:IAO_0000115>This is an AE which is inflammation of small blood vessels (usually post-capillary venules in the dermis), characterized by palpable purpura and it is the most common vasculitis seen in clinical practice.</obo:IAO_0000115>
+        <obo:IAO_0000117>QY, JX, HY</obo:IAO_0000117>
+        <obo:IAO_0000119>http://en.volupedia.org/wiki/Cutaneous_small-vessel_vasculitis</obo:IAO_0000119>
+        <obo:OAE_0001849>白细胞性血管炎</obo:OAE_0001849>
+    </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/OAE_0001129 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0001129"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001130 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0001130">
+        <obo:IAO_0000115>This is an AE which is a person&apos;s overall sexual drive or desire for sexual activity that is became disorder.</obo:IAO_0000115>
+        <obo:IAO_0000117>QY, JX, HY</obo:IAO_0000117>
+        <obo:IAO_0000119>http://en.volupedia.org/wiki/Libido</obo:IAO_0000119>
+        <obo:OAE_0001849>性欲障碍</obo:OAE_0001849>
+    </owl:Class>
     
 
 
@@ -2706,6 +2950,16 @@
     <!-- http://purl.obolibrary.org/obo/OAE_0001142 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0001142"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001143 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0001143">
+        <obo:IAO_0000117>QY, JX, HY</obo:IAO_0000117>
+        <obo:IAO_0000119>http://en.volupedia.org/wiki/Pulmonary_consolidation</obo:IAO_0000119>
+        <obo:OAE_0001849>肺实变</obo:OAE_0001849>
+    </owl:Class>
     
 
 
@@ -2801,7 +3055,10 @@
 
     <!-- http://purl.obolibrary.org/obo/OAE_0001204 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0001204"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0001204">
+        <obo:IAO_0000117>QY, JX, HY</obo:IAO_0000117>
+        <obo:OAE_0001849>缺血性坏死</obo:OAE_0001849>
+    </owl:Class>
     
 
 
@@ -2831,7 +3088,11 @@
 
     <!-- http://purl.obolibrary.org/obo/OAE_0001215 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0001215"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0001215">
+        <obo:IAO_0000117>QY, JX, HY</obo:IAO_0000117>
+        <obo:IAO_0000119>http://en.volupedia.org/wiki/Neurotoxicity</obo:IAO_0000119>
+        <obo:OAE_0001849>神经毒性</obo:OAE_0001849>
+    </owl:Class>
     
 
 
@@ -2841,9 +3102,24 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/OAE_0001227 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0001227">
+        <obo:IAO_0000115>This is an AE which is a common complication in chronic kidney disease and is associated with many adverse clinical consequences.</obo:IAO_0000115>
+        <obo:IAO_0000117>QY, JX, HY</obo:IAO_0000117>
+        <obo:IAO_0000119>https://pubmed.ncbi.nlm.nih.gov/26372086/</obo:IAO_0000119>
+        <obo:OAE_0001849>正色素性正细胞性贫血</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/OAE_0001233 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0001233"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0001233">
+        <obo:IAO_0000117>QY, JX, HY</obo:IAO_0000117>
+        <obo:IAO_0000119>https://pubmed.ncbi.nlm.nih.gov/29617789/</obo:IAO_0000119>
+        <obo:OAE_0001849>食管狭窄</obo:OAE_0001849>
+    </owl:Class>
     
 
 
@@ -2865,6 +3141,17 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/OAE_0001252 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0001252">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0004244"/>
+        <obo:IAO_0000117>QY, JX, HY</obo:IAO_0000117>
+        <obo:IAO_0000119>http://en.volupedia.org/wiki/Edema</obo:IAO_0000119>
+        <obo:OAE_0001849>眼眶水肿</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/OAE_0001255 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0001255"/>
@@ -2880,6 +3167,18 @@
     <!-- http://purl.obolibrary.org/obo/OAE_0001269 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0001269"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001280 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0001280">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000956"/>
+        <obo:IAO_0000115>This is an AE which is a bone fracture caused by weakness of the bone structure that leads to decrease mechanical resistance to normal mechanical loads.</obo:IAO_0000115>
+        <obo:IAO_0000117>QY, JX, HY</obo:IAO_0000117>
+        <obo:IAO_0000119>http://en.volupedia.org/wiki/Pathologic_fracture</obo:IAO_0000119>
+        <obo:OAE_0001849>病理性骨折</obo:OAE_0001849>
+    </owl:Class>
     
 
 
@@ -2904,6 +3203,16 @@
     <!-- http://purl.obolibrary.org/obo/OAE_0001300 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0001300"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001304 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0001304">
+        <obo:IAO_0000117>QY, JX, HY</obo:IAO_0000117>
+        <obo:IAO_0000119>http://en.volupedia.org/wiki/Pneumomediastinum</obo:IAO_0000119>
+        <obo:OAE_0001849>纵隔气肿</obo:OAE_0001849>
+    </owl:Class>
     
 
 
@@ -3027,9 +3336,29 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/OAE_0001425 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0001425">
+        <obo:IAO_0000117>QY, JX, HY</obo:IAO_0000117>
+        <obo:IAO_0000119>http://en.volupedia.org/wiki/Stevens%E2%80%93Johnson_syndrome</obo:IAO_0000119>
+        <obo:OAE_0001849>史蒂文斯-约翰逊综合征</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/OAE_0001428 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0001428"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001439 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0001439">
+        <obo:IAO_0000117>QY, JX, HY</obo:IAO_0000117>
+        <obo:IAO_0000119>http://en.volupedia.org/wiki/Complication_(medicine)</obo:IAO_0000119>
+        <obo:OAE_0001849>缝合相关并发症</obo:OAE_0001849>
+    </owl:Class>
     
 
 
@@ -3138,6 +3467,24 @@
     <!-- http://purl.obolibrary.org/obo/OAE_0001529 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0001529"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001543 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0001543">
+        <obo:IAO_0000117>QY, JX, HY</obo:IAO_0000117>
+        <obo:IAO_0000119>https://pubmed.ncbi.nlm.nih.gov/31711964/</obo:IAO_0000119>
+        <obo:OAE_0001849>播散性卡介苗杆菌感染</obo:OAE_0001849>
+        <obo:OAE_0004334>10076666</obo:OAE_0004334>
+        <rdfs:label>disseminated bacillus calmette-guerin infection AE</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001544 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0001544"/>
     
 
 
@@ -3385,6 +3732,16 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/OAE_0001843 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0001843">
+        <obo:IAO_0000117>QY, JX, HY</obo:IAO_0000117>
+        <obo:IAO_0000119>http://en.volupedia.org/wiki/Acute_respiratory_distress_syndrome</obo:IAO_0000119>
+        <obo:OAE_0001849>呼吸窘迫</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/OAE_0001844 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0001844"/>
@@ -3423,7 +3780,18 @@
 
     <!-- http://purl.obolibrary.org/obo/OAE_0001877 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0001877"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0001877">
+        <obo:OAE_0001849>期外收缩</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001879 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0001879">
+        <obo:IAO_0000117>QY, JX, HY</obo:IAO_0000117>
+        <obo:OAE_0001849>感觉体温变化</obo:OAE_0001849>
+    </owl:Class>
     
 
 
@@ -3469,6 +3837,16 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/OAE_0001935 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0001935">
+        <obo:IAO_0000117>QY, JX, HY</obo:IAO_0000117>
+        <obo:OAE_0001849>凹陷性水肿</obo:OAE_0001849>
+        <obo:OAE_0004334>10035076</obo:OAE_0004334>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/OAE_0001937 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0001937"/>
@@ -3489,7 +3867,11 @@
 
     <!-- http://purl.obolibrary.org/obo/OAE_0001953 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0001953"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0001953">
+        <obo:IAO_0000117>QY, JX, HY</obo:IAO_0000117>
+        <obo:IAO_0000119>http://en.volupedia.org/wiki/Fibromyalgia</obo:IAO_0000119>
+        <obo:OAE_0001849>纤维肌痛症</obo:OAE_0001849>
+    </owl:Class>
     
 
 
@@ -3535,6 +3917,15 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/OAE_0001988 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0001988">
+        <obo:IAO_0000117>QY, JX, HY</obo:IAO_0000117>
+        <obo:OAE_0001849>反流</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/OAE_0001990 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0001990"/>
@@ -3550,6 +3941,17 @@
     <!-- http://purl.obolibrary.org/obo/OAE_0001999 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0001999"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002001 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0002001">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000495"/>
+        <obo:IAO_0000117>QY, JX, HY</obo:IAO_0000117>
+        <obo:IAO_0000119>http://en.volupedia.org/wiki/Enuresis</obo:IAO_0000119>
+        <obo:OAE_0001849>遗尿症</obo:OAE_0001849>
+    </owl:Class>
     
 
 
@@ -3585,13 +3987,22 @@
 
     <!-- http://purl.obolibrary.org/obo/OAE_0002039 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0002039"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0002039">
+        <obo:IAO_0000115>This is an AE which is dermal thickening causing the cutaneous surface to feel thicker and firmer.</obo:IAO_0000115>
+        <obo:IAO_0000117>QY, JX, HY</obo:IAO_0000117>
+        <obo:IAO_0000119>http://en.volupedia.org/wiki/Skin_condition#Secondary_lesions</obo:IAO_0000119>
+        <obo:OAE_0001849>硬化</obo:OAE_0001849>
+    </owl:Class>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/OAE_0002049 -->
+    <!-- http://purl.obolibrary.org/obo/OAE_0002043 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0002049"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0002043">
+        <obo:IAO_0000117>QY, JX, HY</obo:IAO_0000117>
+        <obo:IAO_0000119>http://en.volupedia.org/wiki/Hypoesthesia</obo:IAO_0000119>
+        <obo:OAE_0001849>面部触觉减退</obo:OAE_0001849>
+    </owl:Class>
     
 
 
@@ -3622,12 +4033,6 @@
     <!-- http://purl.obolibrary.org/obo/OAE_0002077 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0002077"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OAE_0002078 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0002078"/>
     
 
 
@@ -3741,7 +4146,14 @@
 
     <!-- http://purl.obolibrary.org/obo/OAE_0002241 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0002241"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0002241">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0002217"/>
+        <obo:IAO_0000115>This is an AE which may be a cause of ABD in preterm newborns and it may arise from oesophageal reflux and/or presence of the feeding tube. It can be diagnosed by atraumatic fiberoptic fibroscopy and successfully treated with corticosteroids.</obo:IAO_0000115>
+        <obo:IAO_0000117>QY, JX, HY</obo:IAO_0000117>
+        <obo:IAO_0000119>https://pubmed.ncbi.nlm.nih.gov/15814221/</obo:IAO_0000119>
+        <obo:OAE_0001849>喉水肿</obo:OAE_0001849>
+        <obo:OAE_0004334>10023845</obo:OAE_0004334>
+    </owl:Class>
     
 
 
@@ -3795,7 +4207,11 @@
 
     <!-- http://purl.obolibrary.org/obo/OAE_0002362 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0002362"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0002362">
+        <obo:IAO_0000117>QY, JX, HY</obo:IAO_0000117>
+        <obo:IAO_0000119>http://en.volupedia.org/wiki/Aphasia</obo:IAO_0000119>
+        <obo:OAE_0001849>失语症</obo:OAE_0001849>
+    </owl:Class>
     
 
 
@@ -3981,6 +4397,17 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/OAE_0002501 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0002501">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0001979"/>
+        <obo:IAO_0000117>QY, JX, HY</obo:IAO_0000117>
+        <obo:IAO_0000119>https://pubmed.ncbi.nlm.nih.gov/30170046/</obo:IAO_0000119>
+        <obo:OAE_0001849>渗出性视网膜病变</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/OAE_0002508 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0002508"/>
@@ -4097,7 +4524,10 @@
 
     <!-- http://purl.obolibrary.org/obo/OAE_0002580 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0002580"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0002580">
+        <obo:IAO_0000117>QY, JX, HY</obo:IAO_0000117>
+        <obo:IAO_0000119>http://en.volupedia.org/wiki/Arrhythmia#Ventricular_arrhythmia</obo:IAO_0000119>
+    </owl:Class>
     
 
 
@@ -4199,7 +4629,12 @@
 
     <!-- http://purl.obolibrary.org/obo/OAE_0002661 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0002661"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0002661">
+        <obo:IAO_0000117>QY, JX, HY</obo:IAO_0000117>
+        <obo:IAO_0000119>http://en.volupedia.org/wiki/Hemoglobinuria</obo:IAO_0000119>
+        <obo:OAE_0001849>血红素尿</obo:OAE_0001849>
+        <obo:OAE_0004334>10018906</obo:OAE_0004334>
+    </owl:Class>
     
 
 
@@ -4287,6 +4722,16 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/OAE_0002787 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0002787">
+        <obo:IAO_0000117>QY, JX, HY</obo:IAO_0000117>
+        <obo:IAO_0000119>http://en.volupedia.org/wiki/Movement_disorder</obo:IAO_0000119>
+        <obo:OAE_0001849>锥体外系疾病</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/OAE_0002788 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0002788"/>
@@ -4341,6 +4786,16 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/OAE_0003245 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0003245">
+        <obo:IAO_0000117>QY, JX, HY</obo:IAO_0000117>
+        <obo:IAO_0000119>http://en.volupedia.org/wiki/Dysplasia</obo:IAO_0000119>
+        <obo:OAE_0001849>起立困难</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/OAE_0003248 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0003248"/>
@@ -4362,6 +4817,17 @@
     <!-- http://purl.obolibrary.org/obo/OAE_0003258 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0003258"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0003296 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0003296">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000558"/>
+        <obo:IAO_0000117>QY, JX, HY</obo:IAO_0000117>
+        <obo:IAO_0000119>http://en.volupedia.org/wiki/Encephalitis</obo:IAO_0000119>
+        <obo:OAE_0001849>脑炎的感染</obo:OAE_0001849>
+    </owl:Class>
     
 
 
@@ -4389,6 +4855,16 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/OAE_0003313 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0003313">
+        <obo:IAO_0000117>QY, JX, HY</obo:IAO_0000117>
+        <obo:IAO_0000119>http://en.volupedia.org/wiki/Infection</obo:IAO_0000119>
+        <obo:OAE_0001849>肝病毒感染</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/OAE_0003315 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0003315"/>
@@ -4407,9 +4883,44 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/OAE_0003350 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0003350">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0004228"/>
+        <obo:IAO_0000117>QY, JX, HY</obo:IAO_0000117>
+        <obo:IAO_0000119>http://en.volupedia.org/wiki/Esophagus</obo:IAO_0000119>
+        <obo:OAE_0001849>食管大出血</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0003352 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0003352">
+        <obo:IAO_0000117>QY, JX, HY</obo:IAO_0000117>
+        <obo:IAO_0000119>https://pubmed.ncbi.nlm.nih.gov/28748016/</obo:IAO_0000119>
+        <obo:OAE_0001849>肝出血</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0003374 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0003374">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0004228"/>
+        <obo:IAO_0000117>QY, JX, HY</obo:IAO_0000117>
+        <obo:OAE_0001849>食管梗阻</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/OAE_0003375 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0003375"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0003375">
+        <obo:IAO_0000117>QY, JX, HY</obo:IAO_0000117>
+        <obo:IAO_0000119>https://pubmed.ncbi.nlm.nih.gov/17465462/</obo:IAO_0000119>
+        <obo:OAE_0001849>食管溃疡</obo:OAE_0001849>
+    </owl:Class>
     
 
 
@@ -4503,6 +5014,17 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/OAE_0003490 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0003490">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000560"/>
+        <obo:IAO_0000117>QY, JX, HY</obo:IAO_0000117>
+        <obo:IAO_0000119>http://en.volupedia.org/wiki/Endophthalmitis</obo:IAO_0000119>
+        <obo:OAE_0001849>眼内炎</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/OAE_0003492 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0003492"/>
@@ -4523,7 +5045,11 @@
 
     <!-- http://purl.obolibrary.org/obo/OAE_0004226 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0004226"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0004226">
+        <obo:IAO_0000117>QY, JX, HY</obo:IAO_0000117>
+        <obo:IAO_0000119>http://en.volupedia.org/wiki/Oliguria</obo:IAO_0000119>
+        <obo:OAE_0001849>尿过少</obo:OAE_0001849>
+    </owl:Class>
     
 
 
@@ -4559,13 +5085,20 @@
 
     <!-- http://purl.obolibrary.org/obo/OAE_0004237 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0004237"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0004237">
+        <obo:IAO_0000117>QY, JX, HY</obo:IAO_0000117>
+        <obo:IAO_0000119>http://en.volupedia.org/wiki/Fibrosis</obo:IAO_0000119>
+        <obo:OAE_0001849>纤维化腱</obo:OAE_0001849>
+    </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/OAE_0004238 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0004238"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0004238">
+        <obo:IAO_0000117>QY, JX, HY</obo:IAO_0000117>
+        <obo:IAO_0000119>https://pubmed.ncbi.nlm.nih.gov/34114979/</obo:IAO_0000119>
+    </owl:Class>
     
 
 
@@ -4629,12 +5162,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/OAE_0004278 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0004278"/>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/OAE_0004284 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0004284"/>
@@ -4667,7 +5194,10 @@
 
     <!-- http://purl.obolibrary.org/obo/OAE_0004305 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0004305"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0004305">
+        <obo:IAO_0000117>QY, JX, HY</obo:IAO_0000117>
+        <obo:IAO_0000119>http://en.volupedia.org/wiki/Endometritis</obo:IAO_0000119>
+    </owl:Class>
     
 
 
@@ -4704,6 +5234,16 @@
     <!-- http://purl.obolibrary.org/obo/OAE_0004352 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0004352"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0004353 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0004353">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000577"/>
+        <obo:IAO_0000117>QY, JX, HY</obo:IAO_0000117>
+        <obo:OAE_0001849>色盲</obo:OAE_0001849>
+    </owl:Class>
     
 
 
@@ -4775,7 +5315,25 @@
 
     <!-- http://purl.obolibrary.org/obo/OAE_0004447 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0004447"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0004447">
+        <obo:IAO_0000117>QY, JX, HY</obo:IAO_0000117>
+        <obo:IAO_0000119>http://en.volupedia.org/wiki/Nephritis</obo:IAO_0000119>
+        <obo:OAE_0001849>性肾炎</obo:OAE_0001849>
+        <obo:OAE_0004334>10029117</obo:OAE_0004334>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0004453 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0004453">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000197"/>
+        <obo:IAO_0000115>This is an AE which is a medical condition involving the death of tubular epithelial cells that form the renal tubules of the kidneys.</obo:IAO_0000115>
+        <obo:IAO_0000117>QY, JX, HY</obo:IAO_0000117>
+        <obo:IAO_0000119>http://en.volupedia.org/wiki/Acute_tubular_necrosis</obo:IAO_0000119>
+        <obo:OAE_0001849>肾小管坏死</obo:OAE_0001849>
+        <obo:OAE_0004334>10038540</obo:OAE_0004334>
+    </owl:Class>
     
 
 
@@ -4803,6 +5361,19 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/OAE_0004490 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0004490">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000374"/>
+        <obo:IAO_0000115>This is an AE which is pain that results from touching the region inside of the costovertebral angle.</obo:IAO_0000115>
+        <obo:IAO_0000117>QY, JX, HY</obo:IAO_0000117>
+        <obo:IAO_0000119>http://en.volupedia.org/wiki/Costovertebral_angle_tenderness</obo:IAO_0000119>
+        <obo:OAE_0001849>肋椎角压痛</obo:OAE_0001849>
+        <obo:OAE_0004334>10051704</obo:OAE_0004334>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/OAE_0004491 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0004491"/>
@@ -4821,15 +5392,14 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/OAE_0004528 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0004528"/>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/OAE_0004534 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0004534"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0004534">
+        <obo:IAO_0000117>QY, JX, HY</obo:IAO_0000117>
+        <obo:IAO_0000119>http://en.volupedia.org/wiki/Cerebral_venous_sinus_thrombosis</obo:IAO_0000119>
+        <obo:OAE_0001849>脑静脉窦血栓形成</obo:OAE_0001849>
+        <obo:OAE_0004334>10083037</obo:OAE_0004334>
+    </owl:Class>
     
 
 
@@ -4841,13 +5411,25 @@
 
     <!-- http://purl.obolibrary.org/obo/OAE_0004539 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0004539"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0004539">
+        <obo:IAO_0000115>This is an AE which occurs when a blood clot forms in the artery that provides blood flow to the peripheral.</obo:IAO_0000115>
+        <obo:IAO_0000117>QY, JX, HY</obo:IAO_0000117>
+        <obo:IAO_0000119>http://en.volupedia.org/wiki/Hepatic_artery_thrombosis</obo:IAO_0000119>
+        <obo:OAE_0001849>外周动脉血栓形成</obo:OAE_0001849>
+        <obo:OAE_0004334>10072564</obo:OAE_0004334>
+    </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/OAE_0004559 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0004559"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0004559">
+        <obo:IAO_0000115>This is an AE which is the formation of a blood clot inside a ophthalmic artery  blood vessel, obstructing the flow of blood through the circulatory system.</obo:IAO_0000115>
+        <obo:IAO_0000117>QY, JX, HY</obo:IAO_0000117>
+        <obo:IAO_0000119>http://en.volupedia.org/wiki/Thrombosis</obo:IAO_0000119>
+        <obo:OAE_0001849>眼动脉血栓形成</obo:OAE_0001849>
+        <obo:OAE_0004334>10081144</obo:OAE_0004334>
+    </owl:Class>
     
 
 
@@ -4857,9 +5439,31 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/OAE_0004563 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0004563">
+        <obo:IAO_0000115>This is an AE which is the formation of a blood clot inside a retinal artery vessel, obstructing the flow of blood through the circulatory system.</obo:IAO_0000115>
+        <obo:IAO_0000117>QY, JX, HY</obo:IAO_0000117>
+        <obo:IAO_0000119>http://en.volupedia.org/wiki/Thrombosis</obo:IAO_0000119>
+        <obo:OAE_0001849>视网膜动脉血栓形成</obo:OAE_0001849>
+        <obo:OAE_0004334>10038831</obo:OAE_0004334>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/OAE_0004573 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0004573"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0004581 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0004581">
+        <obo:IAO_0000117>QY, JX, HY</obo:IAO_0000117>
+        <obo:IAO_0000119>http://en.volupedia.org/wiki/Thrombosis</obo:IAO_0000119>
+        <obo:OAE_0001849>肺动脉血栓形成</obo:OAE_0001849>
+    </owl:Class>
     
 
 
@@ -6311,20 +6915,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/OAE_0004687 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0004687">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0001215"/>
-        <obo:IAO_0000115>This is an AE which is a form of toxicity in which a biological, chemical, or physical agent produces an adverse effect on the structure or function of the central and/or peripheral nervous system.</obo:IAO_0000115>
-        <obo:IAO_0000117>QY, JX, HY</obo:IAO_0000117>
-        <obo:IAO_0000119>http://en.volupedia.org/wiki/Neurotoxicity</obo:IAO_0000119>
-        <obo:OAE_0001849>神经毒性</obo:OAE_0001849>
-        <obo:OAE_0004334>10029350</obo:OAE_0004334>
-        <rdfs:label>neurotoxicity AE</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/OAE_0004688 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0004688">
@@ -6930,13 +7520,9 @@
     <!-- http://purl.obolibrary.org/obo/OAE_0004731 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0004731">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0002601"/>
-        <obo:IAO_0000115>This is an AE which is the tenth cranial nerve or CN X, and interfaces with the parasympathetic control of the heart, lungs, and digestive tract and its function gets disorder.</obo:IAO_0000115>
         <obo:IAO_0000117>QY, JX, HY</obo:IAO_0000117>
         <obo:IAO_0000119>http://en.volupedia.org/wiki/Vagus_nerve</obo:IAO_0000119>
         <obo:OAE_0001849>迷走神经紊乱</obo:OAE_0001849>
-        <obo:OAE_0004334>10061403</obo:OAE_0004334>
-        <rdfs:label>vagus nerve disorder AE</rdfs:label>
     </owl:Class>
     
 
@@ -7028,13 +7614,10 @@
     <!-- http://purl.obolibrary.org/obo/OAE_0004738 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0004738">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0002601"/>
         <obo:IAO_0000115>This is an AE which is an injury to the spinal accessory nerve which results in diminished or absent function of the sternocleidomastoid muscle and upper portion of the trapezius muscle.</obo:IAO_0000115>
         <obo:IAO_0000117>QY, JX, HY</obo:IAO_0000117>
         <obo:IAO_0000119>http://en.volupedia.org/wiki/Accessory_nerve_disorder</obo:IAO_0000119>
         <obo:OAE_0001849>副神经障碍</obo:OAE_0001849>
-        <obo:OAE_0004334>10060929</obo:OAE_0004334>
-        <rdfs:label>accessory nerve disorder AE</rdfs:label>
     </owl:Class>
     
 
@@ -8428,7 +9011,7 @@
     <!-- http://purl.obolibrary.org/obo/OAE_0004838 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0004838">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000444"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0001544"/>
         <obo:IAO_0000115>This is an AE which is a term used to describe a constellation of early-appearing social communication deficits and repetitive sensory-motor behaviours associated with a strong genetic component as well as other causes.</obo:IAO_0000115>
         <obo:IAO_0000117>QY, JX, HY</obo:IAO_0000117>
         <obo:IAO_0000119>https://pubmed.ncbi.nlm.nih.gov/30078460/</obo:IAO_0000119>
@@ -9283,20 +9866,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/OAE_0004900 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0004900">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000558"/>
-        <obo:IAO_0000115>This is an AE which is inflammation and infection of the brain.</obo:IAO_0000115>
-        <obo:IAO_0000117>QY, JX, HY</obo:IAO_0000117>
-        <obo:IAO_0000119>http://en.volupedia.org/wiki/Encephalitis</obo:IAO_0000119>
-        <obo:OAE_0001849>脑炎的感染</obo:OAE_0001849>
-        <obo:OAE_0004334>10058805</obo:OAE_0004334>
-        <rdfs:label>encephalitis infection AE</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/OAE_0004901 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0004901">
@@ -9605,20 +10174,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/OAE_0004923 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0004923">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000801"/>
-        <obo:IAO_0000115>This is an AE which is a sudden bleeding into the tissues of the brain, into its ventricles, or into both.</obo:IAO_0000115>
-        <obo:IAO_0000117>QY, JX, HY</obo:IAO_0000117>
-        <obo:IAO_0000119>http://en.volupedia.org/wiki/Intracerebral_hemorrhage</obo:IAO_0000119>
-        <obo:OAE_0001849>脑出血</obo:OAE_0001849>
-        <obo:OAE_0004334>10008111</obo:OAE_0004334>
-        <rdfs:label>cerebral hemorrhage AE</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/OAE_0004924 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0004924">
@@ -9717,20 +10272,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/OAE_0004931 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0004931">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0004534"/>
-        <obo:IAO_0000115>This is an AE which is the presence of a blood clot in the dural venous sinuses (which drain blood from the brain), the cerebral veins, or both.</obo:IAO_0000115>
-        <obo:IAO_0000117>QY, JX, HY</obo:IAO_0000117>
-        <obo:IAO_0000119>http://en.volupedia.org/wiki/Cerebral_venous_sinus_thrombosis</obo:IAO_0000119>
-        <obo:OAE_0001849>脑静脉窦血栓形成</obo:OAE_0001849>
-        <obo:OAE_0004334>10083037</obo:OAE_0004334>
-        <rdfs:label>cerebral venous sinus thrombosis AE</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/OAE_0004932 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0004932">
@@ -9769,20 +10310,6 @@
         <obo:OAE_0001849>脑肝肾综合征</obo:OAE_0001849>
         <obo:OAE_0004334>10053684</obo:OAE_0004334>
         <rdfs:label>cerebrohepatorenal syndrome AE</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OAE_0004935 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0004935">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000534"/>
-        <obo:IAO_0000115>This is an AE which is a medical condition in which poor blood flow to the brain causes cell death.</obo:IAO_0000115>
-        <obo:IAO_0000117>QY, JX, HY</obo:IAO_0000117>
-        <obo:IAO_0000119>http://en.volupedia.org/wiki/Stroke</obo:IAO_0000119>
-        <obo:OAE_0001849>脑血管中风</obo:OAE_0001849>
-        <obo:OAE_0004334>10008190</obo:OAE_0004334>
-        <rdfs:label>cerebrovascular accident AE</rdfs:label>
     </owl:Class>
     
 
@@ -10039,20 +10566,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/OAE_0004954 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0004954">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000761"/>
-        <obo:IAO_0000115>This is an AE which is excess accumulation of fluid (edema) in the intracellular or extracellular spaces of the brain.</obo:IAO_0000115>
-        <obo:IAO_0000117>QY, JX, HY</obo:IAO_0000117>
-        <obo:IAO_0000119>http://en.volupedia.org/wiki/Cerebral_edema</obo:IAO_0000119>
-        <obo:OAE_0001849>脑部水肿</obo:OAE_0001849>
-        <obo:OAE_0004334>10048962</obo:OAE_0004334>
-        <rdfs:label>brain edema AE</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/OAE_0004955 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0004955">
@@ -10272,20 +10785,6 @@
         <obo:OAE_0001849>获得性癫痫性失语</obo:OAE_0001849>
         <obo:OAE_0004334>10052075</obo:OAE_0004334>
         <rdfs:label>acquired epileptic aphasia AE</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OAE_0004971 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0004971">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0002362"/>
-        <obo:IAO_0000115>This is an AE which is an inability to comprehend or formulate language because of damage to specific brain regions.</obo:IAO_0000115>
-        <obo:IAO_0000117>QY, JX, HY</obo:IAO_0000117>
-        <obo:IAO_0000119>http://en.volupedia.org/wiki/Aphasia</obo:IAO_0000119>
-        <obo:OAE_0001849>失语症</obo:OAE_0001849>
-        <obo:OAE_0004334>10002948</obo:OAE_0004334>
-        <rdfs:label>aphasia AE</rdfs:label>
     </owl:Class>
     
 
@@ -12372,20 +12871,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/OAE_0005122 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0005122">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000347"/>
-        <obo:IAO_0000115>This is an AE which is a type of respiratory failure characterized.</obo:IAO_0000115>
-        <obo:IAO_0000117>QY, JX, HY</obo:IAO_0000117>
-        <obo:IAO_0000119>http://en.volupedia.org/wiki/Acute_respiratory_distress_syndrome</obo:IAO_0000119>
-        <obo:OAE_0001849>呼吸窘迫</obo:OAE_0001849>
-        <obo:OAE_0004334>10049874</obo:OAE_0004334>
-        <rdfs:label>cardio-respiratory distress AE</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/OAE_0005123 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0005123">
@@ -12522,20 +13007,6 @@
         <obo:OAE_0001849>胸膜心包炎</obo:OAE_0001849>
         <obo:OAE_0004334>10059361</obo:OAE_0004334>
         <rdfs:label>pleuro pericarditis AE</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OAE_0005133 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0005133">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0004561"/>
-        <obo:IAO_0000115>This is an AE which is the formation of a pulmonary artery blood clot inside a blood vessel, obstructing the flow of blood through the circulatory system.</obo:IAO_0000115>
-        <obo:IAO_0000117>QY, JX, HY</obo:IAO_0000117>
-        <obo:IAO_0000119>http://en.volupedia.org/wiki/Thrombosis</obo:IAO_0000119>
-        <obo:OAE_0001849>肺动脉血栓形成</obo:OAE_0001849>
-        <obo:OAE_0004334>10037340</obo:OAE_0004334>
-        <rdfs:label>pulmonary artery thrombosis AE</rdfs:label>
     </owl:Class>
     
 
@@ -12876,20 +13347,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/OAE_0005158 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0005158">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000784"/>
-        <obo:IAO_0000115>This is an AE which is a medical emergency resulting from inadequate blood flow due to the dysfunction of the ventricles of the heart.</obo:IAO_0000115>
-        <obo:IAO_0000117>QY, JX, HY</obo:IAO_0000117>
-        <obo:IAO_0000119>http://en.volupedia.org/wiki/Cardiogenic_shock</obo:IAO_0000119>
-        <obo:OAE_0001849>心原性休克</obo:OAE_0001849>
-        <obo:OAE_0004334>10007625</obo:OAE_0004334>
-        <rdfs:label>cardiogenic shock AE</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/OAE_0005159 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0005159">
@@ -13184,20 +13641,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/OAE_0005180 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0005180">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0002677"/>
-        <obo:IAO_0000115>This is an AE which is bleeding within the skull.</obo:IAO_0000115>
-        <obo:IAO_0000117>QY, JX, HY</obo:IAO_0000117>
-        <obo:IAO_0000119>http://en.volupedia.org/wiki/Intracranial_hemorrhage</obo:IAO_0000119>
-        <obo:OAE_0001849>颅内出血</obo:OAE_0001849>
-        <obo:OAE_0004334>10018985</obo:OAE_0004334>
-        <rdfs:label>hemorrhage intracranial AE</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/OAE_0005181 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0005181">
@@ -13394,20 +13837,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/OAE_0005195 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0005195">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0001029"/>
-        <obo:IAO_0000115>This is an AE which is a condition of unrecognized origin which can become extremely serious and whose diagnosis is often made during perinatal autopsy and is often characterised by nonspecific clinical manifestations and a long delay before biological presentation.</obo:IAO_0000115>
-        <obo:IAO_0000117>QY, JX, HY</obo:IAO_0000117>
-        <obo:IAO_0000119>https://pubmed.ncbi.nlm.nih.gov/28748016/</obo:IAO_0000119>
-        <obo:OAE_0001849>肝出血</obo:OAE_0001849>
-        <obo:OAE_0004334>10019677</obo:OAE_0004334>
-        <rdfs:label>hepatic hemorrhage AE</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/OAE_0005196 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0005196">
@@ -13530,20 +13959,6 @@
         <obo:OAE_0001849>肌肉出血</obo:OAE_0001849>
         <obo:OAE_0004334>10028309</obo:OAE_0004334>
         <rdfs:label>muscle hemorrhage AE</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OAE_0005205 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0005205">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0004228"/>
-        <obo:IAO_0000115>This is an AE which is an organ in vertebrates through which food passes, aided by peristaltic contractions, from the pharynx to the stomach and the organ is haemorrhage.</obo:IAO_0000115>
-        <obo:IAO_0000117>QY, JX, HY</obo:IAO_0000117>
-        <obo:IAO_0000119>http://en.volupedia.org/wiki/Esophagus</obo:IAO_0000119>
-        <obo:OAE_0001849>食管大出血</obo:OAE_0001849>
-        <obo:OAE_0004334>10030172</obo:OAE_0004334>
-        <rdfs:label>esophageal hemorrhage AE</rdfs:label>
     </owl:Class>
     
 
@@ -13733,13 +14148,10 @@
     <!-- http://purl.obolibrary.org/obo/OAE_0005219 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0005219">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0002078"/>
         <obo:IAO_0000115>This is an AE which is the pressure of circulating blood against the walls of blood vessels and the data is fluctuation.</obo:IAO_0000115>
         <obo:IAO_0000117>QY, JX, HY</obo:IAO_0000117>
         <obo:IAO_0000119>http://en.volupedia.org/wiki/Blood_pressure</obo:IAO_0000119>
         <obo:OAE_0001849>血压波动</obo:OAE_0001849>
-        <obo:OAE_0004334>10005746</obo:OAE_0004334>
-        <rdfs:label>blood pressure fluctuation AE</rdfs:label>
     </owl:Class>
     
 
@@ -13915,7 +14327,7 @@
     <!-- http://purl.obolibrary.org/obo/OAE_0005232 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0005232">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0002078"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0005219"/>
         <obo:IAO_0000115>This is an AE which occurs when there are unexpected changes in blood pressure.</obo:IAO_0000115>
         <obo:IAO_0000117>QY, JX, HY</obo:IAO_0000117>
         <obo:IAO_0000119>http://en.volupedia.org/wiki/Labile_hypertension</obo:IAO_0000119>
@@ -13950,20 +14362,6 @@
         <obo:OAE_0001849>连状纹状体血管病变</obo:OAE_0001849>
         <obo:OAE_0004334>10073774</obo:OAE_0004334>
         <rdfs:label>lenticulostriatal vasculopathy AE</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OAE_0005235 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0005235">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0001126"/>
-        <obo:IAO_0000115>This is an AE which is inflammation of small blood vessels (usually post-capillary venules in the dermis), characterized by palpable purpura and it is the most common vasculitis seen in clinical practice.</obo:IAO_0000115>
-        <obo:IAO_0000117>QY, JX, HY</obo:IAO_0000117>
-        <obo:IAO_0000119>http://en.volupedia.org/wiki/Cutaneous_small-vessel_vasculitis</obo:IAO_0000119>
-        <obo:OAE_0001849>白细胞性血管炎</obo:OAE_0001849>
-        <obo:OAE_0004334>10024377</obo:OAE_0004334>
-        <rdfs:label>leukocytoclastic vasculitis AE</rdfs:label>
     </owl:Class>
     
 
@@ -14430,20 +14828,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/OAE_0005269 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0005269">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0002580"/>
-        <obo:IAO_0000115>This is an AE which is a type of arrhythmia.</obo:IAO_0000115>
-        <obo:IAO_0000117>QY, JX, HY</obo:IAO_0000117>
-        <obo:IAO_0000119>http://en.volupedia.org/wiki/Arrhythmia#Ventricular_arrhythmia</obo:IAO_0000119>
-        <obo:OAE_0001849>室性心律失常</obo:OAE_0001849>
-        <obo:OAE_0004334>10047281</obo:OAE_0004334>
-        <rdfs:label>ventricular arrhythmia AE</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/OAE_0005270 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0005270">
@@ -14643,7 +15027,7 @@
     <!-- http://purl.obolibrary.org/obo/OAE_0005284 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0005284">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0002078"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0005219"/>
         <obo:IAO_0000115>This is an AE which is a central component of the renin–angiotensin system (RAS), which controls blood pressure by regulating the volume of fluids in the body.</obo:IAO_0000115>
         <obo:IAO_0000117>QY, JX, HY</obo:IAO_0000117>
         <obo:IAO_0000119>http://en.volupedia.org/wiki/Angiotensin-converting_enzyme</obo:IAO_0000119>
@@ -17314,20 +17698,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/OAE_0005475 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0005475">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000213"/>
-        <obo:IAO_0000115>This is an AE which is the leakage of a fluid out of its container into the surrounding area, especially blood or blood cells from vessels.</obo:IAO_0000115>
-        <obo:IAO_0000117>QY, JX, HY</obo:IAO_0000117>
-        <obo:IAO_0000119>http://en.volupedia.org/wiki/Extravasation</obo:IAO_0000119>
-        <obo:OAE_0001849>外渗</obo:OAE_0001849>
-        <obo:OAE_0004334>10015866</obo:OAE_0004334>
-        <rdfs:label>extravasation AE</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/OAE_0005476 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0005476">
@@ -17393,7 +17763,7 @@
     <!-- http://purl.obolibrary.org/obo/OAE_0005481 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0005481">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0002078"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0005219"/>
         <obo:IAO_0000117>QY, JX, HY</obo:IAO_0000117>
         <obo:OAE_0001849>血压控制不足</obo:OAE_0001849>
         <obo:OAE_0004334>10051128</obo:OAE_0004334>
@@ -17422,18 +17792,6 @@
         <obo:OAE_0001849>非典型分枝杆菌心包炎</obo:OAE_0001849>
         <obo:OAE_0004334>10055036</obo:OAE_0004334>
         <rdfs:label>atypical mycobacterium pericarditis AE</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OAE_0005484 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0005484">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0001204"/>
-        <obo:IAO_0000117>QY, JX, HY</obo:IAO_0000117>
-        <obo:OAE_0001849>缺血性坏死</obo:OAE_0001849>
-        <obo:OAE_0004334>10028862</obo:OAE_0004334>
-        <rdfs:label>necrosis ischemic AE</rdfs:label>
     </owl:Class>
     
 
@@ -19639,20 +19997,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/OAE_0005643 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0005643">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000495"/>
-        <obo:IAO_0000115>This is an AE which is a repeated inability to control urination.</obo:IAO_0000115>
-        <obo:IAO_0000117>QY, JX, HY</obo:IAO_0000117>
-        <obo:IAO_0000119>http://en.volupedia.org/wiki/Enuresis</obo:IAO_0000119>
-        <obo:OAE_0001849>遗尿症</obo:OAE_0001849>
-        <obo:OAE_0004334>10014928</obo:OAE_0004334>
-        <rdfs:label>enuresis AE</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/OAE_0005644 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0005644">
@@ -19719,20 +20063,6 @@
         <obo:OAE_0001849>大肠杆菌败血症</obo:OAE_0001849>
         <obo:OAE_0004334>10015296</obo:OAE_0004334>
         <rdfs:label>escherichia sepsis AE</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OAE_0005649 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0005649">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000554"/>
-        <obo:IAO_0000115>This is an AE which is defined in the medical literature as &quot;flatus expelled through the anus&quot; or the &quot;quality or state of being flatulent&quot;, which is defined in turn as &quot;marked by or affected with gases generated in the intestine or stomach; likely to cause digestive flatulence&quot;.</obo:IAO_0000115>
-        <obo:IAO_0000117>QY, JX, HY</obo:IAO_0000117>
-        <obo:IAO_0000119>http://en.volupedia.org/wiki/Flatulence</obo:IAO_0000119>
-        <obo:OAE_0001849>肠胃气胀</obo:OAE_0001849>
-        <obo:OAE_0004334>10016766</obo:OAE_0004334>
-        <rdfs:label>flatulence AE</rdfs:label>
     </owl:Class>
     
 
@@ -21207,44 +21537,13 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/OAE_0005755 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0005755">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0001233"/>
-        <obo:IAO_0000115>This is an AE which is a predictor of poor prognosis in patients with oesophageal cancer.</obo:IAO_0000115>
-        <obo:IAO_0000117>QY, JX, HY</obo:IAO_0000117>
-        <obo:IAO_0000119>https://pubmed.ncbi.nlm.nih.gov/29617789/</obo:IAO_0000119>
-        <obo:OAE_0001849>食管狭窄</obo:OAE_0001849>
-        <obo:OAE_0004334>10030194</obo:OAE_0004334>
-        <rdfs:label>esophageal stenosis AE</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OAE_0005756 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0005756">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0003375"/>
-        <obo:IAO_0000115>This is an AE which occur mainly as a result of gastro-oesophageal reflux disease (GERD).</obo:IAO_0000115>
-        <obo:IAO_0000117>QY, JX, HY</obo:IAO_0000117>
-        <obo:IAO_0000119>https://pubmed.ncbi.nlm.nih.gov/17465462/</obo:IAO_0000119>
-        <obo:OAE_0001849>食管溃疡</obo:OAE_0001849>
-        <obo:OAE_0004334>10030201</obo:OAE_0004334>
-        <rdfs:label>esophageal ulcer AE</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/OAE_0005757 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0005757">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0001234"/>
-        <obo:IAO_0000115>This is an AE which is a chronic condition in which stomach contents rise up into the esophagus, resulting in either symptoms or complications.</obo:IAO_0000115>
         <obo:IAO_0000117>QY, JX, HY</obo:IAO_0000117>
         <obo:IAO_0000119>http://en.volupedia.org/wiki/Gastroesophageal_reflux_disease</obo:IAO_0000119>
         <obo:OAE_0001849>反流性食管炎</obo:OAE_0001849>
-        <obo:OAE_0004334>10038263</obo:OAE_0004334>
-        <rdfs:label>reflux esophagitis AE</rdfs:label>
     </owl:Class>
     
 
@@ -21665,20 +21964,6 @@
         <obo:OAE_0001849>咽黏膜白斑病</obo:OAE_0001849>
         <obo:OAE_0004334>10051731</obo:OAE_0004334>
         <rdfs:label>pharyngeal leukoplakia AE</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OAE_0005788 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0005788">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0002053"/>
-        <obo:IAO_0000115>This is an AE which is the build-up of fluid in the pharyngeal tissue.</obo:IAO_0000115>
-        <obo:IAO_0000117>QY, JX, HY</obo:IAO_0000117>
-        <obo:IAO_0000119>http://en.volupedia.org/wiki/Edema</obo:IAO_0000119>
-        <obo:OAE_0001849>咽部水肿</obo:OAE_0001849>
-        <obo:OAE_0004334>10034829</obo:OAE_0004334>
-        <rdfs:label>pharyngeal edema AE</rdfs:label>
     </owl:Class>
     
 
@@ -22803,20 +23088,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/OAE_0005869 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0005869">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000601"/>
-        <obo:IAO_0000115>This is an AE which is the expulsion of material from the pharynx, or esophagus, usually characterized by the presence of undigested food or blood.</obo:IAO_0000115>
-        <obo:IAO_0000117>QY, JX, HY</obo:IAO_0000117>
-        <obo:IAO_0000119>http://en.volupedia.org/wiki/Regurgitation_(digestion)</obo:IAO_0000119>
-        <obo:OAE_0001849>反流</obo:OAE_0001849>
-        <obo:OAE_0004334>10067171</obo:OAE_0004334>
-        <rdfs:label>regurgitation AE</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/OAE_0005870 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0005870">
@@ -23171,18 +23442,6 @@
         <obo:OAE_0001849>食管刺激</obo:OAE_0001849>
         <obo:OAE_0004334>10070818</obo:OAE_0004334>
         <rdfs:label>esophageal irritation AE</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OAE_0005897 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0005897">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0004228"/>
-        <obo:IAO_0000117>QY, JX, HY</obo:IAO_0000117>
-        <obo:OAE_0001849>食管梗阻</obo:OAE_0001849>
-        <obo:OAE_0004334>10030178</obo:OAE_0004334>
-        <rdfs:label>esophageal obstruction AE</rdfs:label>
     </owl:Class>
     
 
@@ -24759,20 +25018,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/OAE_0006012 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0006012">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000577"/>
-        <obo:IAO_0000115>This is an AE which is the decreased ability to see color or differences in color.</obo:IAO_0000115>
-        <obo:IAO_0000117>QY, JX, HY</obo:IAO_0000117>
-        <obo:IAO_0000119>http://en.volupedia.org/wiki/Color_blindness</obo:IAO_0000119>
-        <obo:OAE_0001849>色盲</obo:OAE_0001849>
-        <obo:OAE_0004334>10010050</obo:OAE_0004334>
-        <rdfs:label>color blindness AE</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/OAE_0006013 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0006013">
@@ -25053,20 +25298,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/OAE_0006033 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0006033">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000560"/>
-        <obo:IAO_0000115>This is an AE which is inflammation of the interior cavity of the eye, usually caused by infection.</obo:IAO_0000115>
-        <obo:IAO_0000117>QY, JX, HY</obo:IAO_0000117>
-        <obo:IAO_0000119>http://en.volupedia.org/wiki/Endophthalmitis</obo:IAO_0000119>
-        <obo:OAE_0001849>眼内炎</obo:OAE_0001849>
-        <obo:OAE_0004334>10014801</obo:OAE_0004334>
-        <rdfs:label>endophthalmitis AE</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/OAE_0006034 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0006034">
@@ -25091,20 +25322,6 @@
         <obo:OAE_0001849>眼外肌疾病</obo:OAE_0001849>
         <obo:OAE_0004334>10053635</obo:OAE_0004334>
         <rdfs:label>extraocular muscle disorder AE</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OAE_0006036 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0006036">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000205"/>
-        <obo:IAO_0000115>This is an AE which  refers to weakness (-paresis) or paralysis (-plegia) of one or more extraocular muscles which are responsible for eye movements.</obo:IAO_0000115>
-        <obo:IAO_0000117>QY, JX, HY</obo:IAO_0000117>
-        <obo:IAO_0000119>http://en.volupedia.org/wiki/Ophthalmoparesis</obo:IAO_0000119>
-        <obo:OAE_0001849>眼外肌轻度瘫痪</obo:OAE_0001849>
-        <obo:OAE_0004334>10015829</obo:OAE_0004334>
-        <rdfs:label>extraocular muscle paresis AE</rdfs:label>
     </owl:Class>
     
 
@@ -25711,20 +25928,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/OAE_0006080 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0006080">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000443"/>
-        <obo:IAO_0000115>This is an AE which is a condition of involuntary (or voluntary, in some cases) eye movement.</obo:IAO_0000115>
-        <obo:IAO_0000117>QY, JX, HY</obo:IAO_0000117>
-        <obo:IAO_0000119>http://en.volupedia.org/wiki/Nystagmus</obo:IAO_0000119>
-        <obo:OAE_0001849>眼球震颤</obo:OAE_0001849>
-        <obo:OAE_0004334>10029864</obo:OAE_0004334>
-        <rdfs:label>nystagmus AE</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/OAE_0006081 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0006081">
@@ -25921,20 +26124,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/OAE_0006095 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0006095">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0004559"/>
-        <obo:IAO_0000115>This is an AE which is the formation of a blood clot inside a ophthalmic artery  blood vessel, obstructing the flow of blood through the circulatory system.</obo:IAO_0000115>
-        <obo:IAO_0000117>QY, JX, HY</obo:IAO_0000117>
-        <obo:IAO_0000119>http://en.volupedia.org/wiki/Thrombosis</obo:IAO_0000119>
-        <obo:OAE_0001849>眼动脉血栓形成</obo:OAE_0001849>
-        <obo:OAE_0004334>10081144</obo:OAE_0004334>
-        <rdfs:label>ophthalmic artery thrombosis AE</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/OAE_0006096 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0006096">
@@ -26015,20 +26204,6 @@
         <obo:OAE_0001849>眼眶肌炎</obo:OAE_0001849>
         <obo:OAE_0004334>10031050</obo:OAE_0004334>
         <rdfs:label>orbital myositis AE</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OAE_0006102 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0006102">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0004244"/>
-        <obo:IAO_0000115>This is an AE which is the build-up of fluid in the orbital  tissue.</obo:IAO_0000115>
-        <obo:IAO_0000117>QY, JX, HY</obo:IAO_0000117>
-        <obo:IAO_0000119>http://en.volupedia.org/wiki/Edema</obo:IAO_0000119>
-        <obo:OAE_0001849>眼眶水肿</obo:OAE_0001849>
-        <obo:OAE_0004334>10031051</obo:OAE_0004334>
-        <rdfs:label>orbital edema AE</rdfs:label>
     </owl:Class>
     
 
@@ -26267,20 +26442,6 @@
         <obo:OAE_0001849>视网膜动脉痉挛</obo:OAE_0001849>
         <obo:OAE_0004334>10038829</obo:OAE_0004334>
         <rdfs:label>retinal artery spasm AE</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OAE_0006120 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0006120">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0003420"/>
-        <obo:IAO_0000115>This is an AE which is the formation of a blood clot inside a retinal artery vessel, obstructing the flow of blood through the circulatory system.</obo:IAO_0000115>
-        <obo:IAO_0000117>QY, JX, HY</obo:IAO_0000117>
-        <obo:IAO_0000119>http://en.volupedia.org/wiki/Thrombosis</obo:IAO_0000119>
-        <obo:OAE_0001849>视网膜动脉血栓形成</obo:OAE_0001849>
-        <obo:OAE_0004334>10038831</obo:OAE_0004334>
-        <rdfs:label>retinal artery thrombosis AE</rdfs:label>
     </owl:Class>
     
 
@@ -26883,20 +27044,6 @@
         <obo:OAE_0001849>假黄斑注视</obo:OAE_0001849>
         <obo:OAE_0004334>10070917</obo:OAE_0004334>
         <rdfs:label>eccentric fixation AE</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OAE_0006164 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0006164">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0001979"/>
-        <obo:IAO_0000115>This is an AE which may be a manifestation of a variety of isolated ocular or systemic diseases in children.</obo:IAO_0000115>
-        <obo:IAO_0000117>QY, JX, HY</obo:IAO_0000117>
-        <obo:IAO_0000119>https://pubmed.ncbi.nlm.nih.gov/30170046/</obo:IAO_0000119>
-        <obo:OAE_0001849>渗出性视网膜病变</obo:OAE_0001849>
-        <obo:OAE_0004334>10015901</obo:OAE_0004334>
-        <rdfs:label>exudative retinopathy AE</rdfs:label>
     </owl:Class>
     
 
@@ -27737,20 +27884,6 @@
         <obo:OAE_0001849>眶周炎症</obo:OAE_0001849>
         <obo:OAE_0004334>10080722</obo:OAE_0004334>
         <rdfs:label>periorbital inflammation AE</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OAE_0006225 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0006225">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0004244"/>
-        <obo:IAO_0000115>This is an AE which is the build-up of fluid in the periorbital tissue.</obo:IAO_0000115>
-        <obo:IAO_0000117>QY, JX, HY</obo:IAO_0000117>
-        <obo:IAO_0000119>http://en.volupedia.org/wiki/Edema</obo:IAO_0000119>
-        <obo:OAE_0001849>眶周水肿</obo:OAE_0001849>
-        <obo:OAE_0004334>10034545</obo:OAE_0004334>
-        <rdfs:label>periorbital edema AE</rdfs:label>
     </owl:Class>
     
 
@@ -29127,20 +29260,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/OAE_0006327 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0006327">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000317"/>
-        <obo:IAO_0000115>This is an AE which is a common side effect of various medical conditions which manifests as a reduced sense of oral touch or sensation, or a partial loss of sensitivity to sensory stimuli.</obo:IAO_0000115>
-        <obo:IAO_0000117>QY, JX, HY</obo:IAO_0000117>
-        <obo:IAO_0000119>http://en.volupedia.org/wiki/Hypoesthesia</obo:IAO_0000119>
-        <obo:OAE_0001849>口腔触觉减退</obo:OAE_0001849>
-        <obo:OAE_0004334>10057371</obo:OAE_0004334>
-        <rdfs:label>hypoesthesia oral AE</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/OAE_0006328 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0006328">
@@ -29319,20 +29438,6 @@
         <obo:OAE_0001849>鼻子烧伤</obo:OAE_0001849>
         <obo:OAE_0004334>10007829</obo:OAE_0004334>
         <rdfs:label>cautery to nose AE</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OAE_0006341 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0006341">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000508"/>
-        <obo:IAO_0000115>This is an AE which is bleeding from the nose.</obo:IAO_0000115>
-        <obo:IAO_0000117>QY, JX, HY</obo:IAO_0000117>
-        <obo:IAO_0000119>http://en.volupedia.org/wiki/Nosebleed</obo:IAO_0000119>
-        <obo:OAE_0001849>鼻出血</obo:OAE_0001849>
-        <obo:OAE_0004334>10015090</obo:OAE_0004334>
-        <rdfs:label>epistaxis AE</rdfs:label>
     </owl:Class>
     
 
@@ -30285,20 +30390,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/OAE_0006411 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0006411">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000953"/>
-        <obo:IAO_0000115>This is an AE which is the infection and inflammation of one or more hair follicles.</obo:IAO_0000115>
-        <obo:IAO_0000117>QY, JX, HY</obo:IAO_0000117>
-        <obo:IAO_0000119>http://en.volupedia.org/wiki/Folliculitis</obo:IAO_0000119>
-        <obo:OAE_0001849>毛囊炎</obo:OAE_0001849>
-        <obo:OAE_0004334>10016936</obo:OAE_0004334>
-        <rdfs:label>folliculitis AE</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/OAE_0006412 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0006412">
@@ -30372,13 +30463,11 @@
     <!-- http://purl.obolibrary.org/obo/OAE_0006417 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0006417">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0004528"/>
         <obo:IAO_0000115>This is an AE which has been largely considered a neurological catastrophe. With conventional treatment, only around 20% of patients achieve functional independence.</obo:IAO_0000115>
         <obo:IAO_0000117>QY, JX, HY</obo:IAO_0000117>
         <obo:IAO_0000119>https://pubmed.ncbi.nlm.nih.gov/21129593/</obo:IAO_0000119>
         <obo:OAE_0001849>基底动脉血栓形成</obo:OAE_0001849>
         <obo:OAE_0004334>10063093</obo:OAE_0004334>
-        <rdfs:label>basilar artery thrombosis AE</rdfs:label>
     </owl:Class>
     
 
@@ -30607,20 +30696,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/OAE_0006434 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0006434">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0004539"/>
-        <obo:IAO_0000115>This is an AE which occurs when a blood clot forms in the artery that provides blood flow to the peripheral.</obo:IAO_0000115>
-        <obo:IAO_0000117>QY, JX, HY</obo:IAO_0000117>
-        <obo:IAO_0000119>http://en.volupedia.org/wiki/Hepatic_artery_thrombosis</obo:IAO_0000119>
-        <obo:OAE_0001849>外周动脉血栓形成</obo:OAE_0001849>
-        <obo:OAE_0004334>10072564</obo:OAE_0004334>
-        <rdfs:label>peripheral artery thrombosis AE</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/OAE_0006435 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0006435">
@@ -30673,20 +30748,6 @@
         <obo:OAE_0001849>溶血性链球菌感染</obo:OAE_0001849>
         <obo:OAE_0004334>10054265</obo:OAE_0004334>
         <rdfs:label>alpha hemolytic streptococcal infection AE</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OAE_0006439 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0006439">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000550"/>
-        <obo:IAO_0000115>This is an AE which is a decrease in the total amount of red blood cells (RBCs) or hemoglobin in the blood or a lowered ability of the blood to carry oxygen.</obo:IAO_0000115>
-        <obo:IAO_0000117>QY, JX, HY</obo:IAO_0000117>
-        <obo:IAO_0000119>http://en.volupedia.org/wiki/Anemia</obo:IAO_0000119>
-        <obo:OAE_0001849>贫血</obo:OAE_0001849>
-        <obo:OAE_0004334>10002034</obo:OAE_0004334>
-        <rdfs:label>anemia AE</rdfs:label>
     </owl:Class>
     
 
@@ -31307,20 +31368,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/OAE_0006484 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0006484">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000550"/>
-        <obo:IAO_0000115>This is an AE which is a common complication in chronic kidney disease and is associated with many adverse clinical consequences.</obo:IAO_0000115>
-        <obo:IAO_0000117>QY, JX, HY</obo:IAO_0000117>
-        <obo:IAO_0000119>https://pubmed.ncbi.nlm.nih.gov/26372086/</obo:IAO_0000119>
-        <obo:OAE_0001849>正色素性正细胞性贫血</obo:OAE_0001849>
-        <obo:OAE_0004334>10029783</obo:OAE_0004334>
-        <rdfs:label>normochromic normocytic anemia AE</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/OAE_0006485 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0006485">
@@ -31521,12 +31568,9 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0006499">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000753"/>
-        <obo:IAO_0000115>This is an AE which is an uncommon and self-limited syndrome characterized by extremity pain of unknown etiology.</obo:IAO_0000115>
         <obo:IAO_0000117>QY, JX, HY</obo:IAO_0000117>
         <obo:IAO_0000119>https://pubmed.ncbi.nlm.nih.gov/27587374/</obo:IAO_0000119>
         <obo:OAE_0001849>骨髓水肿</obo:OAE_0001849>
-        <obo:OAE_0004334>10051763</obo:OAE_0004334>
-        <rdfs:label>bone marrow edema AE</rdfs:label>
     </owl:Class>
     
 
@@ -31961,20 +32005,6 @@
         <obo:OAE_0001849>嗜血杆菌感染</obo:OAE_0001849>
         <obo:OAE_0004334>10061190</obo:OAE_0004334>
         <rdfs:label>haemophilus infection AE</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OAE_0006531 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0006531">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0001013"/>
-        <obo:IAO_0000115>This is an AE which is the coughing up of blood or blood-stained mucus from the bronchi, larynx, trachea, or lungs.</obo:IAO_0000115>
-        <obo:IAO_0000117>QY, JX, HY</obo:IAO_0000117>
-        <obo:IAO_0000119>http://en.volupedia.org/wiki/Hemoptysis</obo:IAO_0000119>
-        <obo:OAE_0001849>咯血</obo:OAE_0001849>
-        <obo:OAE_0004334>10018964</obo:OAE_0004334>
-        <rdfs:label>hemoptysis AE</rdfs:label>
     </owl:Class>
     
 
@@ -33201,20 +33231,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/OAE_0006620 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0006620">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0001135"/>
-        <obo:IAO_0000115>This is an AE which is the invasion of an organism&apos;s body tissues by disease-causing agents, their multiplication, and the reaction of host tissues to the infectious agents and the toxins they produce such as hepatic infection.</obo:IAO_0000115>
-        <obo:IAO_0000117>QY, JX, HY</obo:IAO_0000117>
-        <obo:IAO_0000119>http://en.volupedia.org/wiki/Infection</obo:IAO_0000119>
-        <obo:OAE_0001849>肝病毒感染</obo:OAE_0001849>
-        <obo:OAE_0004334>10056522</obo:OAE_0004334>
-        <rdfs:label>hepatic infection AE</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/OAE_0006621 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0006621">
@@ -33978,20 +33994,6 @@
         <obo:OAE_0001849>摸到淋巴结</obo:OAE_0001849>
         <obo:OAE_0004334>10057470</obo:OAE_0004334>
         <rdfs:label>lymph node palpable AE</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OAE_0006677 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0006677">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000932"/>
-        <obo:IAO_0000115>This is an AE whcih is an uncommon disease with a relatively high rate of associated morbidity and mortality.</obo:IAO_0000115>
-        <obo:IAO_0000117>QY, JX, HY</obo:IAO_0000117>
-        <obo:IAO_0000119>https://pubmed.ncbi.nlm.nih.gov/20060254/</obo:IAO_0000119>
-        <obo:OAE_0001849>硬膜外脓肿</obo:OAE_0001849>
-        <obo:OAE_0004334>10061846</obo:OAE_0004334>
-        <rdfs:label>extradural abscess AE</rdfs:label>
     </owl:Class>
     
 
@@ -35133,13 +35135,10 @@
     <!-- http://purl.obolibrary.org/obo/OAE_0006759 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0006759">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0002591"/>
         <obo:IAO_0000115>This is an AE which is a spectrum of conditions caused by infection with the human immunodeficiency virus (HIV), a retrovirus.</obo:IAO_0000115>
         <obo:IAO_0000117>QY, JX, HY</obo:IAO_0000117>
         <obo:IAO_0000119>http://en.volupedia.org/wiki/HIV/AIDS</obo:IAO_0000119>
         <obo:OAE_0001849>获得性免疫缺陷综合征</obo:OAE_0001849>
-        <obo:OAE_0004334>10000565</obo:OAE_0004334>
-        <rdfs:label>acquired immunodeficiency syndrome AE</rdfs:label>
     </owl:Class>
     
 
@@ -35266,20 +35265,6 @@
         <obo:OAE_0001849>继发性免疫缺陷</obo:OAE_0001849>
         <obo:OAE_0004334>10054979</obo:OAE_0004334>
         <rdfs:label>secondary immunodeficiency AE</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OAE_0006769 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0006769">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000631"/>
-        <obo:IAO_0000115>This is an AE which is an acute condition involving a severe and dangerous lowered white blood cell count (leukopenia, most commonly of neutrophils) and thus causing a neutropenia in the circulating blood.</obo:IAO_0000115>
-        <obo:IAO_0000117>QY, JX, HY</obo:IAO_0000117>
-        <obo:IAO_0000119>http://en.volupedia.org/wiki/Agranulocytosis</obo:IAO_0000119>
-        <obo:OAE_0001849>粒细胞减少症</obo:OAE_0001849>
-        <obo:OAE_0004334>10001507</obo:OAE_0004334>
-        <rdfs:label>agranulocytosis AE</rdfs:label>
     </owl:Class>
     
 
@@ -38806,20 +38791,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/OAE_0007026 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0007026">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0004278"/>
-        <obo:IAO_0000115>This is an AE which is a mainstay of adjunctive therapy for superficial bladder cancer that increases length of disease progression-free survival and it usually well tolerated, moderate to severe local and systemic infectious complications can occur with this immunotherapy.</obo:IAO_0000115>
-        <obo:IAO_0000117>QY, JX, HY</obo:IAO_0000117>
-        <obo:IAO_0000119>https://pubmed.ncbi.nlm.nih.gov/31711964/</obo:IAO_0000119>
-        <obo:OAE_0001849>播散性卡介苗杆菌感染</obo:OAE_0001849>
-        <obo:OAE_0004334>10076666</obo:OAE_0004334>
-        <rdfs:label>disseminated bacillus calmette-guerin infection AE</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/OAE_0007027 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0007027">
@@ -39711,20 +39682,6 @@
         <obo:OAE_0001849>接触传染性软疣</obo:OAE_0001849>
         <obo:OAE_0004334>10027807</obo:OAE_0004334>
         <rdfs:label>molluscum contagiosum AE</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OAE_0007091 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0007091">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000304"/>
-        <obo:IAO_0000115>This is an AE which is a bacterial infection involving the inner layers of the skin.</obo:IAO_0000115>
-        <obo:IAO_0000117>QY, JX, HY</obo:IAO_0000117>
-        <obo:IAO_0000119>http://en.volupedia.org/wiki/Cellulitis</obo:IAO_0000119>
-        <obo:OAE_0001849>蜂窝织炎</obo:OAE_0001849>
-        <obo:OAE_0004334>10007882</obo:OAE_0004334>
-        <rdfs:label>cellulitis AE</rdfs:label>
     </owl:Class>
     
 
@@ -42317,20 +42274,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/OAE_0007277 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0007277">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000040"/>
-        <obo:IAO_0000115>This is an AE which is an suture related unfavorable result of a disease.</obo:IAO_0000115>
-        <obo:IAO_0000117>QY, JX, HY</obo:IAO_0000117>
-        <obo:IAO_0000119>http://en.volupedia.org/wiki/Complication_(medicine)</obo:IAO_0000119>
-        <obo:OAE_0001849>缝合相关并发症</obo:OAE_0001849>
-        <obo:OAE_0004334>10059059</obo:OAE_0004334>
-        <rdfs:label>suture related complication AE</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/OAE_0007278 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0007278">
@@ -43323,20 +43266,6 @@
         <obo:OAE_0001849>牙齿触觉减退</obo:OAE_0001849>
         <obo:OAE_0004334>10051780</obo:OAE_0004334>
         <rdfs:label>hypoesthesia teeth AE</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OAE_0007350 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0007350">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000317"/>
-        <obo:IAO_0000115>This is an AE which is a common side effect of various medical conditions which manifests as a reduced sense of touch or sensation, or a partial loss of sensitivity to sensory stimuli such as hypoaesthesia facial.</obo:IAO_0000115>
-        <obo:IAO_0000117>QY, JX, HY</obo:IAO_0000117>
-        <obo:IAO_0000119>http://en.volupedia.org/wiki/Hypoesthesia</obo:IAO_0000119>
-        <obo:OAE_0001849>面部触觉减退</obo:OAE_0001849>
-        <obo:OAE_0004334>10065312</obo:OAE_0004334>
-        <rdfs:label>hypoesthesia facial AE</rdfs:label>
     </owl:Class>
     
 
@@ -44651,18 +44580,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/OAE_0007445 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0007445">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000945"/>
-        <obo:IAO_0000117>QY, JX, HY</obo:IAO_0000117>
-        <obo:OAE_0001849>感觉体温变化</obo:OAE_0001849>
-        <obo:OAE_0004334>10061458</obo:OAE_0004334>
-        <rdfs:label>feeling of body temperature change AE</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/OAE_0007446 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0007446">
@@ -44817,34 +44734,6 @@
         <obo:OAE_0001849>肾上腺髓质机能亢进</obo:OAE_0001849>
         <obo:OAE_0004334>10001371</obo:OAE_0004334>
         <rdfs:label>adrenal medulla hyperfunction AE</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OAE_0007458 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0007458">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000265"/>
-        <obo:IAO_0000115>This is an AE which is a type of abnormal and excessive growth of adrenal  tissue.</obo:IAO_0000115>
-        <obo:IAO_0000117>QY, JX, HY</obo:IAO_0000117>
-        <obo:IAO_0000119>http://en.volupedia.org/wiki/Neoplasm</obo:IAO_0000119>
-        <obo:OAE_0001849>肾上腺肿瘤</obo:OAE_0001849>
-        <obo:OAE_0004334>10061588</obo:OAE_0004334>
-        <rdfs:label>adrenal neoplasm AE</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OAE_0007459 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0007459">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0001072"/>
-        <obo:IAO_0000115>This is an AE which is a condition in which the adrenal glands do not produce adequate amounts of steroid hormones, primarily cortisol; but may also include impaired production of aldosterone (a mineralocorticoid), which regulates sodium conservation, potassium secretion, and water retention.</obo:IAO_0000115>
-        <obo:IAO_0000117>QY, JX, HY</obo:IAO_0000117>
-        <obo:IAO_0000119>http://en.volupedia.org/wiki/Adrenal_insufficiency</obo:IAO_0000119>
-        <obo:OAE_0001849>肾上腺抑制</obo:OAE_0001849>
-        <obo:OAE_0004334>10001382</obo:OAE_0004334>
-        <rdfs:label>adrenal suppression AE</rdfs:label>
     </owl:Class>
     
 
@@ -45489,20 +45378,6 @@
         <obo:OAE_0001849>小肾</obo:OAE_0001849>
         <obo:OAE_0004334>10023435</obo:OAE_0004334>
         <rdfs:label>kidney small AE</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OAE_0007506 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0007506">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000197"/>
-        <obo:IAO_0000115>This is an AE which is a medical condition involving the death of tubular epithelial cells that form the renal tubules of the kidneys.</obo:IAO_0000115>
-        <obo:IAO_0000117>QY, JX, HY</obo:IAO_0000117>
-        <obo:IAO_0000119>http://en.volupedia.org/wiki/Acute_tubular_necrosis</obo:IAO_0000119>
-        <obo:OAE_0001849>肾小管坏死</obo:OAE_0001849>
-        <obo:OAE_0004334>10038540</obo:OAE_0004334>
-        <rdfs:label>renal tubular necrosis AE</rdfs:label>
     </owl:Class>
     
 
@@ -47243,20 +47118,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/OAE_0007631 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0007631">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0002670"/>
-        <obo:IAO_0000115>This is an AE which is the result of a process reducing hydrogen ion concentration of arterial blood plasma (alkalemia).</obo:IAO_0000115>
-        <obo:IAO_0000117>QY, JX, HY</obo:IAO_0000117>
-        <obo:IAO_0000119>http://en.volupedia.org/wiki/Alkalosis</obo:IAO_0000119>
-        <obo:OAE_0001849>碱毒症</obo:OAE_0001849>
-        <obo:OAE_0004334>10001680</obo:OAE_0004334>
-        <rdfs:label>alkalosis AE</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/OAE_0007632 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0007632">
@@ -47963,20 +47824,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/OAE_0007684 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0007684">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0001953"/>
-        <obo:IAO_0000115>This is an AE which is a medical condition characterized by chronic widespread pain and a heightened pain response to pressure.</obo:IAO_0000115>
-        <obo:IAO_0000117>QY, JX, HY</obo:IAO_0000117>
-        <obo:IAO_0000119>http://en.volupedia.org/wiki/Fibromyalgia</obo:IAO_0000119>
-        <obo:OAE_0001849>纤维肌痛症</obo:OAE_0001849>
-        <obo:OAE_0004334>10048439</obo:OAE_0004334>
-        <rdfs:label>fibromyalgia AE</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/OAE_0007685 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0007685">
@@ -48001,20 +47848,6 @@
         <obo:OAE_0001849>纤维化</obo:OAE_0001849>
         <obo:OAE_0004334>10016642</obo:OAE_0004334>
         <rdfs:label>fibrosis AE</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OAE_0007687 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0007687">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0004237"/>
-        <obo:IAO_0000115>This is an AE which is a pathological wound healing in which connective tissue replaces normal tendinous parenchymal tissue to the extent that it goes unchecked, leading to considerable tissue remodelling and the formation of permanent scar tissue.</obo:IAO_0000115>
-        <obo:IAO_0000117>QY, JX, HY</obo:IAO_0000117>
-        <obo:IAO_0000119>http://en.volupedia.org/wiki/Fibrosis</obo:IAO_0000119>
-        <obo:OAE_0001849>纤维化腱</obo:OAE_0001849>
-        <obo:OAE_0004334>10016662</obo:OAE_0004334>
-        <rdfs:label>fibrosis tendinous AE</rdfs:label>
     </owl:Class>
     
 
@@ -48411,20 +48244,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/OAE_0007716 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0007716">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000956"/>
-        <obo:IAO_0000115>This is an AE which is the region of the upper limb between the elbow and the wrist which is fracture.</obo:IAO_0000115>
-        <obo:IAO_0000117>QY, JX, HY</obo:IAO_0000117>
-        <obo:IAO_0000119>http://en.volupedia.org/wiki/Forearm#Fracture</obo:IAO_0000119>
-        <obo:OAE_0001849>前臂骨折</obo:OAE_0001849>
-        <obo:OAE_0004334>10016997</obo:OAE_0004334>
-        <rdfs:label>forearm fracture AE</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/OAE_0007717 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0007717">
@@ -48799,20 +48618,6 @@
         <obo:OAE_0001849>髌骨骨折</obo:OAE_0001849>
         <obo:OAE_0004334>10034122</obo:OAE_0004334>
         <rdfs:label>patella fracture AE</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OAE_0007744 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0007744">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000956"/>
-        <obo:IAO_0000115>This is an AE which is a bone fracture caused by weakness of the bone structure that leads to decrease mechanical resistance to normal mechanical loads.</obo:IAO_0000115>
-        <obo:IAO_0000117>QY, JX, HY</obo:IAO_0000117>
-        <obo:IAO_0000119>http://en.volupedia.org/wiki/Pathologic_fracture</obo:IAO_0000119>
-        <obo:OAE_0001849>病理性骨折</obo:OAE_0001849>
-        <obo:OAE_0004334>10034156</obo:OAE_0004334>
-        <rdfs:label>pathological fracture AE</rdfs:label>
     </owl:Class>
     
 
@@ -49335,20 +49140,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/OAE_0007782 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0007782">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000525"/>
-        <obo:IAO_0000115>This is an AE which is a disease of the muscle  in which the muscle fibers do not function properly.</obo:IAO_0000115>
-        <obo:IAO_0000117>QY, JX, HY</obo:IAO_0000117>
-        <obo:IAO_0000119>http://en.volupedia.org/wiki/Myopathy</obo:IAO_0000119>
-        <obo:OAE_0001849>肌病</obo:OAE_0001849>
-        <obo:OAE_0004334>10028641</obo:OAE_0004334>
-        <rdfs:label>myopathy AE</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/OAE_0007783 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0007783">
@@ -49443,20 +49234,6 @@
         <obo:OAE_0001849>肌筋膜疼痛综合征</obo:OAE_0001849>
         <obo:OAE_0004334>10048780</obo:OAE_0004334>
         <rdfs:label>myofascial pain syndrome AE</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OAE_0007790 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0007790">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0004238"/>
-        <obo:IAO_0000115>This is an AE which main cause of the disease is aseptic inflammation of local muscles and connective tissues such as myofascial, which can be manifested as paralysis, distension, and other discomfort, local muscle stiffness, spasm or palpable strain-like nodules.</obo:IAO_0000115>
-        <obo:IAO_0000117>QY, JX, HY</obo:IAO_0000117>
-        <obo:IAO_0000119>https://pubmed.ncbi.nlm.nih.gov/34114979/</obo:IAO_0000119>
-        <obo:OAE_0001849>肌筋膜炎</obo:OAE_0001849>
-        <obo:OAE_0004334>10052443</obo:OAE_0004334>
-        <rdfs:label>myofascitis AE</rdfs:label>
     </owl:Class>
     
 
@@ -49723,34 +49500,6 @@
         <obo:OAE_0001849>椎体侧隐窝狭窄</obo:OAE_0001849>
         <obo:OAE_0004334>10081612</obo:OAE_0004334>
         <rdfs:label>vertebral lateral recess stenosis AE</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OAE_0007810 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0007810">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000880"/>
-        <obo:IAO_0000115>This is an AE which is a dislocation of an irregular bone with a complex structure composed of bone and some hyaline cartilage, the proportions of which vary according to the segment of the backbone and the species of vertebrate.</obo:IAO_0000115>
-        <obo:IAO_0000117>QY, JX, HY</obo:IAO_0000117>
-        <obo:IAO_0000119>http://en.volupedia.org/wiki/Vertebra</obo:IAO_0000119>
-        <obo:OAE_0001849>椎体脱位，腰椎脱位</obo:OAE_0001849>
-        <obo:OAE_0004334>10013183</obo:OAE_0004334>
-        <rdfs:label>dislocation of vertebra AE</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OAE_0007811 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0007811">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000518"/>
-        <obo:IAO_0000115>This is an AE which refers to any clinical syndrome with either an excess of movement or a paucity of voluntary and involuntary movements, unrelated to weakness or spasticity.</obo:IAO_0000115>
-        <obo:IAO_0000117>QY, JX, HY</obo:IAO_0000117>
-        <obo:IAO_0000119>http://en.volupedia.org/wiki/Movement_disorder</obo:IAO_0000119>
-        <obo:OAE_0001849>锥体外系疾病</obo:OAE_0001849>
-        <obo:OAE_0004334>10015832</obo:OAE_0004334>
-        <rdfs:label>extrapyramidal disorder AE</rdfs:label>
     </owl:Class>
     
 
@@ -50451,20 +50200,6 @@
         <obo:OAE_0001849>腿部截肢</obo:OAE_0001849>
         <obo:OAE_0004334>10024124</obo:OAE_0004334>
         <rdfs:label>leg amputation AE</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OAE_0007862 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0007862">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000307"/>
-        <obo:IAO_0000115>This is an AE which is a deviation from normal walking (gait).</obo:IAO_0000115>
-        <obo:IAO_0000117>QY, JX, HY</obo:IAO_0000117>
-        <obo:IAO_0000119>http://en.volupedia.org/wiki/Gait_abnormality</obo:IAO_0000119>
-        <obo:OAE_0001849>行走困难</obo:OAE_0001849>
-        <obo:OAE_0004334>10012794</obo:OAE_0004334>
-        <rdfs:label>difficulty in walking AE</rdfs:label>
     </owl:Class>
     
 
@@ -52219,20 +51954,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/OAE_0007988 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0007988">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000374"/>
-        <obo:IAO_0000115>This is an AE which is pain that results from touching the region inside of the costovertebral angle.</obo:IAO_0000115>
-        <obo:IAO_0000117>QY, JX, HY</obo:IAO_0000117>
-        <obo:IAO_0000119>http://en.volupedia.org/wiki/Costovertebral_angle_tenderness</obo:IAO_0000119>
-        <obo:OAE_0001849>肋椎角压痛</obo:OAE_0001849>
-        <obo:OAE_0004334>10051704</obo:OAE_0004334>
-        <rdfs:label>costovertebral angle tenderness AE</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/OAE_0007989 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0007989">
@@ -52397,20 +52118,6 @@
         <obo:OAE_0001849>偏侧肥大</obo:OAE_0001849>
         <obo:OAE_0004334>10019463</obo:OAE_0004334>
         <rdfs:label>hemihypertrophy AE</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OAE_0008001 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0008001">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0002049"/>
-        <obo:IAO_0000115>This is an AE which is any of various types of abnormal growth or development of cells (microscopic scale) or organs (macroscopic scale), and the abnormal histology or anatomical structure resulting from such growth.</obo:IAO_0000115>
-        <obo:IAO_0000117>QY, JX, HY</obo:IAO_0000117>
-        <obo:IAO_0000119>http://en.volupedia.org/wiki/Dysplasia</obo:IAO_0000119>
-        <obo:OAE_0001849>起立困难</obo:OAE_0001849>
-        <obo:OAE_0004334>10050256</obo:OAE_0004334>
-        <rdfs:label>dysstasia AE</rdfs:label>
     </owl:Class>
     
 
@@ -53143,20 +52850,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/OAE_0008057 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0008057">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000805"/>
-        <obo:IAO_0000115>This is an AE which is a medical condition characterized by inflammation of the lips.</obo:IAO_0000115>
-        <obo:IAO_0000117>QY, JX, HY</obo:IAO_0000117>
-        <obo:IAO_0000119>http://en.volupedia.org/wiki/Cheilitis</obo:IAO_0000119>
-        <obo:OAE_0001849>唇炎</obo:OAE_0001849>
-        <obo:OAE_0004334>10008417</obo:OAE_0004334>
-        <rdfs:label>cheilitis AE</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/OAE_0008058 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0008058">
@@ -53363,20 +53056,6 @@
         <obo:OAE_0001849>舌乳头萎缩</obo:OAE_0001849>
         <obo:OAE_0004334>10003712</obo:OAE_0004334>
         <rdfs:label>atrophy of tongue papillae AE</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OAE_0008073 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0008073">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000472"/>
-        <obo:IAO_0000115>This is an AE which is the build-up of fluid in the tongue tissue.</obo:IAO_0000115>
-        <obo:IAO_0000117>QY, JX, HY</obo:IAO_0000117>
-        <obo:IAO_0000119>http://en.volupedia.org/wiki/Edema</obo:IAO_0000119>
-        <obo:OAE_0001849>舌水肿</obo:OAE_0001849>
-        <obo:OAE_0004334>10043967</obo:OAE_0004334>
-        <rdfs:label>tongue edema AE</rdfs:label>
     </owl:Class>
     
 
@@ -55777,20 +55456,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/OAE_0008246 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0008246">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000455"/>
-        <obo:IAO_0000115>This is an AE which is a rare abdominal wall defect.</obo:IAO_0000115>
-        <obo:IAO_0000117>QY, JX, HY</obo:IAO_0000117>
-        <obo:IAO_0000119>http://en.volupedia.org/wiki/Omphalocele</obo:IAO_0000119>
-        <obo:OAE_0001849>脐突出</obo:OAE_0001849>
-        <obo:OAE_0004334>10015677</obo:OAE_0004334>
-        <rdfs:label>exomphalos AE</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/OAE_0008247 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0008247">
@@ -55995,8 +55660,6 @@
         <obo:IAO_0000117>QY, JX, HY</obo:IAO_0000117>
         <obo:IAO_0000119>http://en.volupedia.org/wiki/Oligohydramnios</obo:IAO_0000119>
         <obo:OAE_0001849>羊水过少</obo:OAE_0001849>
-        <obo:OAE_0004334>10030289</obo:OAE_0004334>
-        <rdfs:label>oligohydramnios AE</rdfs:label>
     </owl:Class>
     
 
@@ -56428,11 +56091,8 @@
     <!-- http://purl.obolibrary.org/obo/OAE_0008293 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0008293">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000064"/>
         <obo:IAO_0000117>QY, JX, HY</obo:IAO_0000117>
         <obo:OAE_0001849>大号婴儿</obo:OAE_0001849>
-        <obo:OAE_0004334>10023789</obo:OAE_0004334>
-        <rdfs:label>large for dates baby AE</rdfs:label>
     </owl:Class>
     
 
@@ -58605,20 +58265,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/OAE_0008449 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0008449">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000622"/>
-        <obo:IAO_0000115>This is an AE which is inflammation of the kidneys and may involve the glomeruli, tubules, or interstitial tissue surrounding the glomeruli and tubules.</obo:IAO_0000115>
-        <obo:IAO_0000117>QY, JX, HY</obo:IAO_0000117>
-        <obo:IAO_0000119>http://en.volupedia.org/wiki/Nephritis</obo:IAO_0000119>
-        <obo:OAE_0001849>性肾炎</obo:OAE_0001849>
-        <obo:OAE_0004334>10029117</obo:OAE_0004334>
-        <rdfs:label>nephritis AE</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/OAE_0008450 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0008450">
@@ -58627,8 +58273,6 @@
         <obo:IAO_0000117>QY, JX, HY</obo:IAO_0000117>
         <obo:IAO_0000119>http://en.volupedia.org/wiki/Menometrorrhagia</obo:IAO_0000119>
         <obo:OAE_0001849>月经过多</obo:OAE_0001849>
-        <obo:OAE_0004334>10027295</obo:OAE_0004334>
-        <rdfs:label>menometrorrhagia AE</rdfs:label>
     </owl:Class>
     
 
@@ -59217,20 +58861,6 @@
         <obo:OAE_0001849>子宫内膜异位</obo:OAE_0001849>
         <obo:OAE_0004334>10014778</obo:OAE_0004334>
         <rdfs:label>endometriosis AE</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OAE_0008493 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0008493">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0004306"/>
-        <obo:IAO_0000115>This is an AE which is inflammation of the inner lining of the uterus (endometrium).</obo:IAO_0000115>
-        <obo:IAO_0000117>QY, JX, HY</obo:IAO_0000117>
-        <obo:IAO_0000119>http://en.volupedia.org/wiki/Endometritis</obo:IAO_0000119>
-        <obo:OAE_0001849>子宫内膜炎</obo:OAE_0001849>
-        <obo:OAE_0004334>10014791</obo:OAE_0004334>
-        <rdfs:label>endometritis AE</rdfs:label>
     </owl:Class>
     
 
@@ -60336,20 +59966,6 @@
         <obo:OAE_0001849>附件子宫痛</obo:OAE_0001849>
         <obo:OAE_0004334>10058841</obo:OAE_0004334>
         <rdfs:label>adnexa uteri pain AE</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OAE_0008573 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0008573">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000651"/>
-        <obo:IAO_0000115>This is an AE which is a person&apos;s overall sexual drive or desire for sexual activity that is became disorder.</obo:IAO_0000115>
-        <obo:IAO_0000117>QY, JX, HY</obo:IAO_0000117>
-        <obo:IAO_0000119>http://en.volupedia.org/wiki/Libido</obo:IAO_0000119>
-        <obo:OAE_0001849>性欲障碍</obo:OAE_0001849>
-        <obo:OAE_0004334>10061221</obo:OAE_0004334>
-        <rdfs:label>libido disorder AE</rdfs:label>
     </owl:Class>
     
 
@@ -62154,20 +61770,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/OAE_0008705 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0008705">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0001164"/>
-        <obo:IAO_0000115>This is an AE which is pneumatosis (abnormal presence of air or other gas) in the mediastinum.</obo:IAO_0000115>
-        <obo:IAO_0000117>QY, JX, HY</obo:IAO_0000117>
-        <obo:IAO_0000119>http://en.volupedia.org/wiki/Pneumomediastinum</obo:IAO_0000119>
-        <obo:OAE_0001849>纵隔气肿</obo:OAE_0001849>
-        <obo:OAE_0004334>10050184</obo:OAE_0004334>
-        <rdfs:label>pneumomediastinum AE</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/OAE_0008706 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0008706">
@@ -62332,20 +61934,6 @@
         <obo:OAE_0001849>肺腺癌</obo:OAE_0001849>
         <obo:OAE_0004334>10025031</obo:OAE_0004334>
         <rdfs:label>lung adenocarcinoma AE</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OAE_0008718 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0008718">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000434"/>
-        <obo:IAO_0000115>This is an AE which is a region of normally compressible lung tissue that has filled with liquid instead of air.</obo:IAO_0000115>
-        <obo:IAO_0000117>QY, JX, HY</obo:IAO_0000117>
-        <obo:IAO_0000119>http://en.volupedia.org/wiki/Pulmonary_consolidation</obo:IAO_0000119>
-        <obo:OAE_0001849>肺实变</obo:OAE_0001849>
-        <obo:OAE_0004334>10025080</obo:OAE_0004334>
-        <rdfs:label>lung consolidation AE</rdfs:label>
     </owl:Class>
     
 
@@ -62556,20 +62144,6 @@
         <obo:OAE_0001849>喉肥大</obo:OAE_0001849>
         <obo:OAE_0004334>10068840</obo:OAE_0004334>
         <rdfs:label>laryngeal hypertrophy AE</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OAE_0008734 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0008734">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0002217"/>
-        <obo:IAO_0000115>This is an AE which may be a cause of ABD in preterm newborns and it may arise from oesophageal reflux and/or presence of the feeding tube. It can be diagnosed by atraumatic fiberoptic fibroscopy and successfully treated with corticosteroids.</obo:IAO_0000115>
-        <obo:IAO_0000117>QY, JX, HY</obo:IAO_0000117>
-        <obo:IAO_0000119>https://pubmed.ncbi.nlm.nih.gov/15814221/</obo:IAO_0000119>
-        <obo:OAE_0001849>喉水肿</obo:OAE_0001849>
-        <obo:OAE_0004334>10023845</obo:OAE_0004334>
-        <rdfs:label>laryngeal edema AE</rdfs:label>
     </owl:Class>
     
 
@@ -62836,20 +62410,6 @@
         <obo:OAE_0001849>支气管扩张</obo:OAE_0001849>
         <obo:OAE_0004334>10006445</obo:OAE_0004334>
         <rdfs:label>bronchiectasis AE</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OAE_0008754 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0008754">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0001142"/>
-        <obo:IAO_0000115>This is an AE which is inflammation of the bronchi (large and medium-sized airways) in the lungs that causes coughing.</obo:IAO_0000115>
-        <obo:IAO_0000117>QY, JX, HY</obo:IAO_0000117>
-        <obo:IAO_0000119>http://en.volupedia.org/wiki/Bronchitis</obo:IAO_0000119>
-        <obo:OAE_0001849>支气管炎</obo:OAE_0001849>
-        <obo:OAE_0004334>10006451</obo:OAE_0004334>
-        <rdfs:label>bronchitis AE</rdfs:label>
     </owl:Class>
     
 
@@ -63396,20 +62956,6 @@
         <obo:OAE_0001849>睡眠呼吸暂停综合征</obo:OAE_0001849>
         <obo:OAE_0004334>10040979</obo:OAE_0004334>
         <rdfs:label>sleep apnoea syndrome AE</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OAE_0008794 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0008794">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000378"/>
-        <obo:IAO_0000115>This is an AE which is an accumulation of air in the chest causing the lung to separate from the chest wall.</obo:IAO_0000115>
-        <obo:IAO_0000117>QY, JX, HY</obo:IAO_0000117>
-        <obo:IAO_0000119>http://en.volupedia.org/wiki/Collapsed_lung_(disambiguation)</obo:IAO_0000119>
-        <obo:OAE_0001849>肺萎陷</obo:OAE_0001849>
-        <obo:OAE_0004334>10009913</obo:OAE_0004334>
-        <rdfs:label>collapse of lung AE</rdfs:label>
     </owl:Class>
     
 
@@ -64440,20 +63986,6 @@
         <obo:OAE_0001849>向心性硬化</obo:OAE_0001849>
         <obo:OAE_0004334>10010252</obo:OAE_0004334>
         <rdfs:label>concentric sclerosis AE</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OAE_0008870 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0008870">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000214"/>
-        <obo:IAO_0000115>This is an AE which is dermal thickening causing the cutaneous surface to feel thicker and firmer.</obo:IAO_0000115>
-        <obo:IAO_0000117>QY, JX, HY</obo:IAO_0000117>
-        <obo:IAO_0000119>http://en.volupedia.org/wiki/Skin_condition#Secondary_lesions</obo:IAO_0000119>
-        <obo:OAE_0001849>硬化</obo:OAE_0001849>
-        <obo:OAE_0004334>10060708</obo:OAE_0004334>
-        <rdfs:label>induration AE</rdfs:label>
     </owl:Class>
     
 
@@ -65714,34 +65246,6 @@
         <obo:OAE_0001849>药物性皮肤栓塞</obo:OAE_0001849>
         <obo:OAE_0004334>10058729</obo:OAE_0004334>
         <rdfs:label>embolia cutis medicamentosa AE</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OAE_0008961 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0008961">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000668"/>
-        <obo:IAO_0000115>This is an AE which refers a punctate or linear abrasion produced by mechanical means (often scratching), usually involving only the epidermis, but commonly reaching the papillary dermis.</obo:IAO_0000115>
-        <obo:IAO_0000117>QY, JX, HY</obo:IAO_0000117>
-        <obo:IAO_0000119>http://en.volupedia.org/wiki/Skin_condition#Secondary_lesions</obo:IAO_0000119>
-        <obo:OAE_0001849>表皮脱落</obo:OAE_0001849>
-        <obo:OAE_0004334>10049796</obo:OAE_0004334>
-        <rdfs:label>excoriation AE</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OAE_0008962 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0008962">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000362"/>
-        <obo:IAO_0000115>This is an AE which is a change of the human skin which affects its color, appearance, or texture and is exfoliative.</obo:IAO_0000115>
-        <obo:IAO_0000117>QY, JX, HY</obo:IAO_0000117>
-        <obo:IAO_0000119>http://en.volupedia.org/wiki/Rash</obo:IAO_0000119>
-        <obo:OAE_0001849>表皮剥脱的皮疹</obo:OAE_0001849>
-        <obo:OAE_0004334>10064579</obo:OAE_0004334>
-        <rdfs:label>exfoliative rash AE</rdfs:label>
     </owl:Class>
     
 
@@ -67994,8 +67498,6 @@
         <obo:IAO_0000117>QY, JX, HY</obo:IAO_0000117>
         <obo:IAO_0000119>http://en.volupedia.org/wiki/Beh%C3%A7et%27s_disease</obo:IAO_0000119>
         <obo:OAE_0001849>贝赫切特综合征</obo:OAE_0001849>
-        <obo:OAE_0004334>10004213</obo:OAE_0004334>
-        <rdfs:label>behcet&apos;s syndrome AE</rdfs:label>
     </owl:Class>
     
 
@@ -68752,20 +68254,6 @@
         <obo:OAE_0001849>绳索综合征</obo:OAE_0001849>
         <obo:OAE_0004334>10066334</obo:OAE_0004334>
         <rdfs:label>tethered cord syndrome AE</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OAE_0009180 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0009180">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000568"/>
-        <obo:IAO_0000115>This is an AE which is a type of severe skin reaction.</obo:IAO_0000115>
-        <obo:IAO_0000117>QY, JX, HY</obo:IAO_0000117>
-        <obo:IAO_0000119>http://en.volupedia.org/wiki/Stevens%E2%80%93Johnson_syndrome</obo:IAO_0000119>
-        <obo:OAE_0001849>史蒂文斯-约翰逊综合征</obo:OAE_0001849>
-        <obo:OAE_0004334>10042033</obo:OAE_0004334>
-        <rdfs:label>stevens-johnson syndrome AE</rdfs:label>
     </owl:Class>
     
 
@@ -70354,20 +69842,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/OAE_0009295 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0009295">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000556"/>
-        <obo:IAO_0000115>This is an AE which is the build-up of fluid in the face tissue.</obo:IAO_0000115>
-        <obo:IAO_0000117>QY, JX, HY</obo:IAO_0000117>
-        <obo:IAO_0000119>http://en.volupedia.org/wiki/Edema</obo:IAO_0000119>
-        <obo:OAE_0001849>脸部水肿</obo:OAE_0001849>
-        <obo:OAE_0004334>10016029</obo:OAE_0004334>
-        <rdfs:label>face edema AE</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/OAE_0009296 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0009296">
@@ -70642,18 +70116,6 @@
         <obo:OAE_0001849>心内肿块</obo:OAE_0001849>
         <obo:OAE_0004334>10066087</obo:OAE_0004334>
         <rdfs:label>intracardiac mass AE</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OAE_0009317 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0009317">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000556"/>
-        <obo:IAO_0000117>QY, JX, HY</obo:IAO_0000117>
-        <obo:OAE_0001849>凹陷性水肿</obo:OAE_0001849>
-        <obo:OAE_0004334>10035076</obo:OAE_0004334>
-        <rdfs:label>pitting edema AE</rdfs:label>
     </owl:Class>
     
 
@@ -71000,20 +70462,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/OAE_0009343 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0009343">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0004226"/>
-        <obo:IAO_0000115>This is an AE which is the low output of urine specifically more than 80 ml/day but less than 100ml/day.</obo:IAO_0000115>
-        <obo:IAO_0000117>QY, JX, HY</obo:IAO_0000117>
-        <obo:IAO_0000119>http://en.volupedia.org/wiki/Oliguria</obo:IAO_0000119>
-        <obo:OAE_0001849>尿过少</obo:OAE_0001849>
-        <obo:OAE_0004334>10030302</obo:OAE_0004334>
-        <rdfs:label>oliguria AE</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/OAE_0009344 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0009344">
@@ -71150,20 +70598,6 @@
         <obo:OAE_0001849>香草扁桃酸尿</obo:OAE_0001849>
         <obo:OAE_0004334>10050833</obo:OAE_0004334>
         <rdfs:label>vanillyl mandelic acid urine AE</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OAE_0009354 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0009354">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0002661"/>
-        <obo:IAO_0000115>This is an AE which is a condition in which the oxygen transport protein hemoglobin is found in abnormally high concentrations in the urine.</obo:IAO_0000115>
-        <obo:IAO_0000117>QY, JX, HY</obo:IAO_0000117>
-        <obo:IAO_0000119>http://en.volupedia.org/wiki/Hemoglobinuria</obo:IAO_0000119>
-        <obo:OAE_0001849>血红素尿</obo:OAE_0001849>
-        <obo:OAE_0004334>10018906</obo:OAE_0004334>
-        <rdfs:label>hemoglobinuria AE</rdfs:label>
     </owl:Class>
     
 
@@ -71588,17 +71022,6 @@
         <obo:OAE_0001849>皮下活检</obo:OAE_0001849>
         <obo:OAE_0004334>10071136</obo:OAE_0004334>
         <rdfs:label>subcutaneous biopsy AE</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OAE_0009390 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0009390">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0001877"/>
-        <obo:OAE_0001849>期外收缩</obo:OAE_0001849>
-        <obo:OAE_0004334>10015856</obo:OAE_0004334>
-        <rdfs:label>extrasystoles AE</rdfs:label>
     </owl:Class>
     
 
