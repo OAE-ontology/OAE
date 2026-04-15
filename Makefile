@@ -68,7 +68,7 @@ oae.owl: build/oae_merged.owl
 
 oae-base.owl: oae.owl
 	$(ROBOT) remove --input oae.owl \
-	--base-iri 'http://purl.obolibrary.org/obo/OAE_' \
+	--base-iri '$(OAE)' \
 	--axioms external \
 	--preserve-structure false \
 	--trim false \
